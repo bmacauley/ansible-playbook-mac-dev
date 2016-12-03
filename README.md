@@ -8,3 +8,7 @@ It is continaully evolving and leans heavily on the following examples on Github
 * [BattleSchool](http://spencer.gibb.us/blog/2014/02/03/introducing-battleschool)
 * [osxc](https://github.com/osxc)
 * [MWGriffin/ansible-playbooks](https://github.com/MWGriffin/ansible-playbooks)
+
+##Installation
+
+(1) 
