@@ -2,7 +2,7 @@
 
 This is playbook to install and configure software on a Macbook used for devops and cloud development.
 
-![Build status](https://travis-ci.org/bmacauley/ans-play-mac-dev.svg?branch=master)
+![Build status](https://travis-ci.org/bmacauley/ansible-playbook-mac-dev.svg?branch=master)
 
 It is continually evolving and leans heavily on the following examples on Github:
 
