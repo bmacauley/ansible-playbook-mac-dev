@@ -1,0 +1,71 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_sudoers: no
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  # - autoconf
+  # - bash-completion
+  # - doxygen
+  # - gettext
+  # - git
+  - go
+  # - gpg
+  # - hub
+  - httpie
+  # - iperf
+  # - libdvdcss
+  # - libevent
+  # - packer
+  # - python
+  # - sqlite
+  # - mcrypt
+  # - mysql
+  # - nmap
+  # - npm
+  # - nvm
+  # - php70
+  # - php70-mcrypt
+  # - php70-xdebug
+  # - ssh-copy-id
+  # - cowsay
+  # - readline
+  # - subversion
+  # - openssl
+  # - pv
+  # - drush
+  # - wget
+  # - wrk
+
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+  - homebrew/binary
+  - homebrew/dupes
+  - homebrew/php
+  - homebrew/versions
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  # - docker
+  # - dropbox
+  # - fing
+  # - firefox
+  # - google-chrome
+  # - handbrake
+  # - kdiff3
+  # - licecap
+  # - limechat
+  # - macvim
+  # - yujitach-menumeters # Note: Using forked version for 10.11+ support
+  # - nvalt
+  # - sequel-pro
+  # - skype
+  # - skitch
+  # - slack
+  # - sublime-text
+  # - transmit
+  # - vagrant
+  # - virtualbox
+  # - vlc
