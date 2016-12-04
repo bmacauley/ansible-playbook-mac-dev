@@ -16,46 +16,100 @@ configure_sudoers: no
 
 
 homebrew_installed_packages:
+  - ack
+  - awscli
+  - aws-shell 
   # - ansible # Installed via Pip.
-  # - autoconf
-  # - bash-completion
-  # - doxygen
-  # - gettext
-  # - git
+  - autoconf
+  - bash 
+  - bash-completion
+  - cowsay
+  - ctags
+  - curl
+  - enca
+  - fish
+  - freetds
+  - gdbm
+  - geoip
+  - gettext
+  - git
+  - git-crypt
+  - git-encrypt
+  - git-flow
+  - git-subrepo
+  - gitup
   - go
-  # - gpg
-  # - hub
+  - gpg
+  - gradle
+  - hub
+  - heroku
+  - heroku-toolbelt
+  - htop-osx
   - httpie
-  # - iperf
-  # - libdvdcss
-  # - libevent
-  # - packer
-  # - python
-  # - sqlite
-  # - mcrypt
-  # - mysql
-  # - nmap
-  # - npm
-  # - nvm
-  # - php70
-  # - php70-mcrypt
-  # - php70-xdebug
-  # - ssh-copy-id
-  # - cowsay
-  # - readline
-  # - subversion
-  # - openssl
-  # - pv
-  # - drush
-  # - wget
-  # - wrk
+  - hugo
+  - ipcalc
+  - iperf
+  - jq
+  - keychain
+  - libevent
+  - libffi
+  - libvterm
+  - libxml2
+  - libyaml
+  - macvim
+  - maven
+  - mcrypt
+  - md5sha1sum
+  - mercurial
+  - mobile-shell
+  - mtr
+  - multitail
+  - mysql
+  - nmap
+  - node
+  - npm
+  - nvm
+  - nginx
+  - openssl
+  - p7zip
+  - packer
+  - pandoc
+  - parallel
+  - postgresql
+  - pup
+  - pv
+  - python
+  - python3
+  - rbenv
+  - readline
+  - reattach-to-user-namespace
+  - redis
+  - ruby
+  - s3cmd
+  - saltstack
+  - scons
+  - sqlite
+  - sqsh
+  - ssh-copy-id
+  - tccutil
+  - terraform
+  - the_platinum_searcher
+  - the_silver_searcher
+  - tig
+  - tmux
+  - tree
+  - unixodbc
+  - vim
+  - wget
+  - wrk
+  - zeromq
+ 
 
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
   - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
   - homebrew/versions
 
 homebrew_cask_appdir: /Applications
