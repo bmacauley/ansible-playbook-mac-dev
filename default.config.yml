@@ -26,6 +26,11 @@ homebrew_installed_packages:
   - cowsay
   - ctags
   - curl
+  - docker
+  - docker-clean
+  - docker-compose
+  - docker-gen
+  - docker-machine
   - enca
   - fish
   - freetds
@@ -70,7 +75,9 @@ homebrew_installed_packages:
   - npm
   - nvm
   - nginx
+  - mas
   - openssl
+  - openvpn
   - p7zip
   - packer
   - pandoc
@@ -80,6 +87,8 @@ homebrew_installed_packages:
   - pv
   - python
   - python3
+  - rancher-cli
+  - rancher-compose
   - rbenv
   - readline
   - reattach-to-user-namespace
@@ -102,6 +111,7 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zeromq
+  - zsh
  
 
 homebrew_taps:
@@ -110,27 +120,64 @@ homebrew_taps:
   - homebrew/binary
   - homebrew/dupes
   - homebrew/versions
+  - homebrew/completions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  # - docker
-  # - dropbox
-  # - fing
-  # - firefox
-  # - google-chrome
+  #- amazon-drive
+  #- airmail-beta
+  - alfred
+  - amazon-workdocs
+  - amazon-workspaces
+  - atom
+  - caffeine
+  - charles
+  - clipmenu
+  - coconutbattery
+  - cyberduck
+  - docker
+  - dropbox
+  - fantastical
+  #- fing
+  - firefox
+  - flux
+  - gas-mask
+  - gitter
+  - github-desktop
+  - google-chrome
+  - google-drive
+  - google-hangouts
   # - handbrake
+  - intellij-idea
+  - iterm2
+  - istat-menus
+  - java
+  - jump-desktop
+  - joinme
+  - kitematic
+  - kindle
   # - kdiff3
   # - licecap
-  # - limechat
-  # - macvim
+  - limechat
   # - yujitach-menumeters # Note: Using forked version for 10.11+ support
   # - nvalt
-  # - sequel-pro
+  - omnigraffle
+  - pgadmin4
+  - postico
+  - postman
+  - powershell
+  - pycharm
+  - sequel-pro
   # - skype
-  # - skitch
-  # - slack
-  # - sublime-text
-  # - transmit
-  # - vagrant
-  # - virtualbox
+  - skitch
+  - slack
+  - sublime-text
+  - tomighty
+  - transmit
+  - tunnelblick
+  - vagrant
+  - virtualbox
+  - visual-studio-code
+  - wifi-explorer
   # - vlc
+  # 
