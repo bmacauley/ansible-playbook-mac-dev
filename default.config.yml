@@ -39,7 +39,6 @@ homebrew_installed_packages:
   - gettext
   - git
   - git-crypt
-  - git-encrypt
   - git-flow
   - git-subrepo
   - gitup
