@@ -1,3 +1,19 @@
 ---
 - hosts: all
   connection: local
+
+  vars_files:
+      - default.config.yml
+
+  pre_tasks:
+    - include_vars: "{{ item }}"
+      with_fileglob:
+        - ../config.yml
+
+  roles:
+    - ansible-role-homebrew
+    # - geerlingguy.dotfiles
+
+  tasks:
+    - include: tasks/ansible-setup.yml
+    # - include: tasks/preferences.yml
