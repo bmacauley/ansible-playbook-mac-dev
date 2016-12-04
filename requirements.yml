@@ -1,0 +1,5 @@
+---
+- src: https://github.com/bmacauley/ansible-role-homebrew
+  version: master
+  name: ansible-role-homebrew
+
