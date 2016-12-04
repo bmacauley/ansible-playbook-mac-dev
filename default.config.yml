@@ -89,7 +89,6 @@ homebrew_installed_packages:
   - saltstack
   - scons
   - sqlite
-  - sqsh
   - ssh-copy-id
   - tccutil
   - terraform
