@@ -14,3 +14,8 @@ It is continually evolving and leans heavily on the following examples on Github
 ##Installation
 
 (1) 
+
+
+```shell
+curl -fsSL https://raw.githubusercontent.com/bmacauley/ansible-playbook-mac-dev/master/install | bash
+```
