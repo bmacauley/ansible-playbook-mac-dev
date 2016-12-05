@@ -59,5 +59,5 @@ tar zxvf /tmp/ansible-playbook-mac-dev.tar.gz
 # This should be subsequently updated in shell settings
 export PATH=/usr/local/bin:$PATH
 
-ansible-galaxy install -r /tmp/ansible-playbook-mac-dev-master/requirements.yml
+ansible-galaxy install -r /tmp/ansible-playbook-mac-dev-master/requirements.yml -p /tmp/ansible-playbook-mac-dev-master/roles
 ansible-playbook /tmp/ansible-playbook-mac-dev-master/main.yml -i /tmp/ansible-playbook-mac-dev-master/inventory -K
