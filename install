@@ -15,11 +15,11 @@ set -e
 #       * check to see if gcc binary even exists ( original logic )
 # if either of the conditions are met, install dev tools
 
-echo '==================================='
-echo 'Macbook dev tools installer'
-echo '===================================\n'
-echo ' Uses the following Ansible playbook...'
-echo 'https://github.com/bmacauley/ansible-playbook-mac-dev\n\n'
+printf '==================================='
+printf 'Macbook dev tools installer'
+printf '===================================\n'
+printf ' Uses the following Ansible playbook...'
+printf 'https://github.com/bmacauley/ansible-playbook-mac-dev\n\n'
 
 
 if [[ $(/usr/bin/gcc 2>&1) =~ "no developer tools were found" ]] || [[ ! -x /usr/bin/gcc ]]; then
