@@ -13,9 +13,43 @@ It is continually evolving and leans heavily on the following examples on Github
 
 ##Installation
 
-(1) 
-
+Run the installer script...
 
 ```shell
 curl -fsSL https://raw.githubusercontent.com/bmacauley/ansible-playbook-mac-dev/master/install | bash
 ```
+
+The installer script installs Apple's command line tools , Homebrew, Python Pip, Ansible and finally it downloads and runs this playbook
+
+
+Alternatively...
+
+1. Install Apple's command line tools, if they are not installed (`xcode-select --install`)
+2. Install [Homebrew](http://brew.sh/)
+3. Install [Ansible](http://docs.ansible.com/ansible/intro_installation.html)
+4. Clone this playbook to your Macbook
+5. Run $ ansible-galaxy install -r requirements.yml inside this directory to install required Ansible roles
+6. Run ansible-playbook main.yml -i inventory -K inside this directory. Enter your account password when prompted.
+
+
+## Defaults
+
+Not everyone's development environment and preferred software configuration is the same.
+You can override any of the defaults configured in default.config.yml by creating a config.yml file and setting the overrides in that file. For example, you can customize the installed packages and apps with something like:
+
+
+
+
+## Included Applications
+
+Applications (Homebrew Casks):
+
+
+
+
+Packages(Homebrew):
+
+
+## 
+
+
