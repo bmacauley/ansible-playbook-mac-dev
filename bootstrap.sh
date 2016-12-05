@@ -43,14 +43,14 @@ fi
 
 # Download and run ansible-playbook-mac-dev playbook
 
-if [[ ! -x /tmp/ansible-playbook-mac-dev.zip ]]; then
-	echo "Info   | remove  | ansible-playbook-mac-dev.zip"
-	rm -rf /tmp/ansible-playbook-mac-dev.zip
+if [[ ! -x /tmp/ansible-playbook-mac-dev.tar.gz ]]; then
+	echo "Info   | remove  | ansible-playbook-mac-dev.tar.gz"
+	rm -rf /tmp/ansible-playbook-mac-dev.tar.gz
 fi
 
-curl -o /tmp/ansible-playbook-mac-dev.zip https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.zip
+curl -o /tmp/ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
 
-open /tmp/ansible-playbook-mac-dev.zip
+tar zxvf ansible-playbook-mac-dev.tar.gz
 
 
 
