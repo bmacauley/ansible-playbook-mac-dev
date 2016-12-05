@@ -15,6 +15,13 @@ set -e
 #       * check to see if gcc binary even exists ( original logic )
 # if either of the conditions are met, install dev tools
 
+echo "==================================="
+echo "Macbook dev tools installer"
+echo "===================================\n"
+echo " Uses the following Ansible playbook..."
+echo "https://github.com/bmacauley/ansible-playbook-mac-dev"
+
+
 if [[ $(/usr/bin/gcc 2>&1) =~ "no developer tools were found" ]] || [[ ! -x /usr/bin/gcc ]]; then
     echo "Info   | Install   | xcode"
     xcode-select --install
@@ -43,20 +50,23 @@ fi
 
 # Remove old ansible-playbook-mac-dev playbook
 if [[ ! -x /tmp/ansible-playbook-mac-dev.tar.gz ]]; then
-	echo "Info   | remove  | ansible-playbook-mac-dev"
+	echo "Info   | Remove  | ansible-playbook-mac-dev playbook"
 	rm -rf /tmp/ansible-playbook-mac-dev*
 fi
 
 
 # Download and run ansible-playbook-mac-dev playbook
+echo "Info   | Download  | ansible-playbook-mac-dev playbook"
 cd /tmp
 curl -fsSL -o ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
-tar zxvf ansible-playbook-mac-dev.tar.gz
+tar zxf ansible-playbook-mac-dev.tar.gz
 
 # Modify the PATH
 # This should be subsequently updated in shell settings
 export PATH=/usr/local/bin:$PATH
 
+
+echo "Info   | Run | ansible-playbook-mac-dev playbook"
 cd /tmp/ansible-playbook-mac-dev-master
 ansible-galaxy install -r requirements.yml 
 ansible-playbook main.yml -i inventory -K
