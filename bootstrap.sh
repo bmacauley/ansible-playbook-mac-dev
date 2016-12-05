@@ -41,20 +41,17 @@ if [[ ! -x /usr/local/bin/ansible ]]; then
 fi
 
 
-# Download and run ansible-playbook-mac-dev playbook
-
+# Remove old ansible-playbook-mac-dev playbook
 if [[ ! -x /tmp/ansible-playbook-mac-dev.tar.gz ]]; then
-	echo "Info   | remove  | ansible-playbook-mac-dev.tar.gz"
+	echo "Info   | remove  | ansible-playbook-mac-dev"
 	rm -rf /tmp/ansible-playbook-mac-dev*
 fi
 
 
+# Download and run ansible-playbook-mac-dev playbook
 cd /tmp
-curl -L -o ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
+curl -L -o -s ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
 tar zxvf ansible-playbook-mac-dev.tar.gz
-
-
-
 
 # Modify the PATH
 # This should be subsequently updated in shell settings
