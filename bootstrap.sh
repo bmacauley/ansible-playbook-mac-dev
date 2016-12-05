@@ -23,7 +23,7 @@ fi
 # Download and install Homebrew
 if [[ ! -x /usr/local/bin/brew ]]; then
     echo "Info   | Install   | homebrew"
-    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # Download and install Pip
@@ -40,8 +40,20 @@ if [[ ! -x /usr/local/bin/ansible ]]; then
     pip install ansible
 fi
 
+
+# Download and run ansible-playbook-mac-dev playbook
+
+# 
+
+rm -rf /tmp/ansible-playbook-mac-dev.zip
+curl -o /tmp/ansible-playbook-mac-dev.zip https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.zip
+unzip /tmp/ansible-playbook-mac-dev.zip
+
+
+
+
 # Modify the PATH
 # This should be subsequently updated in shell settings
 export PATH=/usr/local/bin:$PATH
 
-ansible-playbook main.yml -i inventory -K
+ansible-playbook /tmp/ansible-playbook-mac-dev/main.yml -i /tmp/ansible-playbook-mac-dev/inventory -K
