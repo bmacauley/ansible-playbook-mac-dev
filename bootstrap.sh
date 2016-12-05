@@ -50,7 +50,7 @@ fi
 
 curl -L -o /tmp/ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
 
-tar zxvf ansible-playbook-mac-dev.tar.gz
+tar zxvf /tmp/ansible-playbook-mac-dev.tar.gz
 
 
 
