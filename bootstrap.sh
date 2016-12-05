@@ -45,7 +45,7 @@ fi
 
 if [[ ! -x /tmp/ansible-playbook-mac-dev.tar.gz ]]; then
 	echo "Info   | remove  | ansible-playbook-mac-dev.tar.gz"
-	rm -rf /tmp/ansible-playbook-mac-dev.tar.gz
+	rm -rf /tmp/ansible-playbook-mac-dev*
 fi
 
 curl -L -o /tmp/ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
@@ -59,4 +59,4 @@ tar zxvf /tmp/ansible-playbook-mac-dev.tar.gz
 # This should be subsequently updated in shell settings
 export PATH=/usr/local/bin:$PATH
 
-ansible-playbook /tmp/ansible-playbook-mac-dev/main.yml -i /tmp/ansible-playbook-mac-dev/inventory -K
+ansible-playbook /tmp/ansible-playbook-mac-dev-master/main.yml -i /tmp/ansible-playbook-mac-dev/inventory -K
