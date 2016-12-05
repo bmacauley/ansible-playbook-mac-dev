@@ -48,7 +48,7 @@ if [[ ! -x /tmp/ansible-playbook-mac-dev.tar.gz ]]; then
 	rm -rf /tmp/ansible-playbook-mac-dev.tar.gz
 fi
 
-curl -o /tmp/ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
+curl -L -o /tmp/ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
 
 tar zxvf ansible-playbook-mac-dev.tar.gz
 
