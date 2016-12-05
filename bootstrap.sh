@@ -50,7 +50,7 @@ fi
 
 # Download and run ansible-playbook-mac-dev playbook
 cd /tmp
-curl -L -o -s ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
+curl -fsSL -o ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
 tar zxvf ansible-playbook-mac-dev.tar.gz
 
 # Modify the PATH
