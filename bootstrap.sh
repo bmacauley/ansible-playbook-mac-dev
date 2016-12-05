@@ -48,9 +48,10 @@ if [[ ! -x /tmp/ansible-playbook-mac-dev.tar.gz ]]; then
 	rm -rf /tmp/ansible-playbook-mac-dev*
 fi
 
-curl -L -o /tmp/ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
 
-tar zxvf /tmp/ansible-playbook-mac-dev.tar.gz
+cd /tmp
+curl -L -o ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
+tar zxvf ansible-playbook-mac-dev.tar.gz
 
 
 
@@ -59,5 +60,7 @@ tar zxvf /tmp/ansible-playbook-mac-dev.tar.gz
 # This should be subsequently updated in shell settings
 export PATH=/usr/local/bin:$PATH
 
-ansible-galaxy install -r /tmp/ansible-playbook-mac-dev-master/requirements.yml -p /tmp/ansible-playbook-mac-dev-master/roles
-ansible-playbook /tmp/ansible-playbook-mac-dev-master/main.yml -i /tmp/ansible-playbook-mac-dev-master/inventory -K
+cd /tmp/ansible-playbook-mac-dev-master
+ansible-galaxy install -r requirements.yml 
+ansible-playbook main.yml -i inventory -K
+
