@@ -26,15 +26,22 @@ if [[ ! -x /usr/local/bin/brew ]]; then
     ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 fi
 
+# Download and install Pip
+
+if [[ ! -x /usr/local/bin/pip ]]; then
+    echo "Info   | Install   | Pip"
+    easy_install pip
+fi
+
+
 # Download and install Ansible
 if [[ ! -x /usr/local/bin/ansible ]]; then
     echo "Info   | Install   | Ansible"
-    brew update
-    brew install ansible
+    pip install ansible
 fi
 
 # Modify the PATH
 # This should be subsequently updated in shell settings
 export PATH=/usr/local/bin:$PATH
 
-ansible-playbook main.yml -K
+ansible-playbook main.yml -i inventory -K
