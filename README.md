@@ -45,151 +45,150 @@ You can override any of the defaults configured in default.config.yml by creatin
 
 Applications (Homebrew Casks):
 
-  - ack
-  - awscli
-  - aws-shell 
-  # - ansible # Installed via Pip.
+  - [ack](http://beyondgrep.com/)
+  - [awscli](https://aws.amazon.com/cli/)
+  - [aws-shell](https://aws.amazon.com/blogs/developer/super-charge-your-aws-command-line-experience-with-aws-shell/) 
   - autoconf
-  - bash 
+  - bash
   - bash-completion
-  - cowsay
-  - ctags
-  - curl
-  - docker
-  - docker-clean
-  - docker-compose
+  - [cowsay](https://en.wikipedia.org/wiki/Cowsay)
+  - [ctags](http://ctags.sourceforge.net/)
+  - [curl](https://curl.haxx.se/)
+  - [docker](https://www.docker.com/)
+  - [docker-clean](https://github.com/ZZROTDesign/docker-clean)
+  - [docker-compose](https://docs.docker.com/compose/)
   - docker-gen
   - docker-machine
   - enca
-  - fish
-  - freetds
+  - [fish](https://fishshell.com/)
+  - [freetds](http://www.freetds.org/)
   - gdbm
   - geoip
   - gettext
-  - git
-  - git-crypt
+  - [git](https://git-scm.com/)
+  - [git-crypt](https://github.com/AGWA/git-crypt)
   - git-flow
-  - git-subrepo
-  - gitup
-  - go
-  - gpg
-  - gradle
-  - hub
-  - heroku
-  - heroku-toolbelt
-  - htop-osx
-  - httpie
-  - hugo
-  - ipcalc
-  - iperf
-  - jq
+  - [git-subrepo](https://github.com/ingydotnet/git-subrepo)
+  - [gitup](http://gitup.co/)
+  - [go](https://golang.org/)
+  - [gpg](https://www.gnupg.org/)
+  - [gradle](https://gradle.org/)
+  - [hub](https://hub.github.com/)
+  - [heroku](https://www.heroku.com/)
+  - [heroku-toolbelt](https://devcenter.heroku.com/articles/heroku-cli)
+  - [htop-osx](https://hisham.hm/htop/)
+  - [httpie](https://httpie.org/)
+  - [hugo](https://gohugo.io/)
+  - [ipcalc](http://jodies.de/ipcalc)
+  - [iperf](https://iperf.fr/)
+  - [jq](https://stedolan.github.io/jq/)
   - keychain
   - libevent
   - libffi
   - libvterm
   - libxml2
   - libyaml
-  - macvim
-  - maven
-  - mcrypt
+  - [macvim](http://macvim-dev.github.io/macvim/)
+  - [maven](https://maven.apache.org/)
+  - [mcrypt](http://mcrypt.sourceforge.net/)
   - md5sha1sum
-  - mercurial
-  - mobile-shell
-  - mtr
-  - multitail
-  - mysql
-  - nmap
-  - node
-  - npm
-  - nvm
-  - nginx
-  - mas
-  - openssl
-  - openvpn
-  - p7zip
-  - packer
-  - pandoc
-  - parallel
-  - postgresql
-  - pup
-  - pv
-  - python
+  - [mercurial](https://www.mercurial-scm.org/)
+  - [mobile-shell](https://mosh.org/)
+  - [mtr](https://en.wikipedia.org/wiki/MTR_(software))
+  - [multitail](https://www.vanheusden.com/multitail/)
+  - [mysql](https://www.mysql.com/)
+  - [nmap](https://nmap.org/)
+  - [node](https://nodejs.org/en/)
+  - [npm](https://www.npmjs.com/)
+  - [nvm](https://github.com/creationix/nvm)
+  - [nginx](https://www.nginx.com/)
+  - [mas](https://github.com/mas-cli/mas)
+  - [openssl](https://www.openssl.org/)
+  - [openvpn](https://openvpn.net/)
+  - [p7zip](http://p7zip.sourceforge.net/)
+  - [packer](https://www.packer.io/)
+  - [pandoc](http://pandoc.org/)
+  - [parallel](https://www.gnu.org/software/parallel/)
+  - [postgresql](https://www.postgresql.org/)
+  - [pup](https://github.com/grahamlyons/pup)
+  - [pv](https://linux.die.net/man/1/pv)
+  - [python](https://www.python.org/)
   - python3
-  - rancher-cli
+  - [rancher-cli](http://rancher.com/)
   - rancher-compose
-  - rbenv
+  - [rbenv](https://github.com/rbenv/rbenv)
   - readline
   - reattach-to-user-namespace
-  - redis
-  - ruby
-  - s3cmd
-  - saltstack
-  - scons
-  - sqlite
-  - ssh-copy-id
-  - tccutil
-  - terraform
-  - the_platinum_searcher
-  - the_silver_searcher
-  - tig
-  - tmux
-  - tree
+  - [redis](https://redis.io/)
+  - [ruby](https://www.ruby-lang.org/en/)
+  - [s3cmd](http://s3tools.org/s3cmd)
+  - [saltstack](https://saltstack.com/)
+  - [scons](http://scons.org/)
+  - [sqlite](https://sqlite.org/)
+  - [ssh-copy-id](https://linux.die.net/man/1/ssh-copy-id)
+  - [tccutil](https://github.com/jacobsalmela/tccutil)
+  - [terraform](https://www.terraform.io/)
+  - [the_platinum_searcher](https://github.com/monochromegane/the_platinum_searcher)
+  - [the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
+  - [tig](https://github.com/jonas/tig)
+  - [tmux](https://tmux.github.io/)
+  - [tree](https://www.cyberciti.biz/faq/linux-show-directory-structure-command-line/)
   - unixodbc
-  - vim
-  - wget
-  - wrk
-  - zeromq
-  - zsh
+  - [vim](http://www.vim.org/)
+  - [wget](https://www.gnu.org/software/wget/)
+  - [wrk](https://github.com/wg/wrk)
+  - [zeromq](http://zeromq.org/)
+  - [zsh](https://en.wikipedia.org/wiki/Z_shell)
 
 
 Packages(Homebrew):
 
-  - alfred
-  - amazon-workdocs
-  - amazon-workspaces
-  - atom
-  - caffeine
-  - charles
-  - clipmenu
-  - coconutbattery
-  - cyberduck
-  - docker
-  - dropbox
-  - fantastical
-  - firefox
-  - flux
-  - gas-mask
-  - gitter
-  - github-desktop
-  - google-chrome
-  - google-drive
-  - google-hangouts
-  - intellij-idea
-  - iterm2
-  - istat-menus
-  - java
-  - jump-desktop
-  - joinme
-  - kitematic
-  - kindle
-  - limechat
-  - omnigraffle
-  - pgadmin4
-  - postico
-  - postman
-  - powershell
-  - pycharm
-  - sequel-pro
-  - skitch
-  - slack
-  - sublime-text
-  - tomighty
-  - transmit
-  - tunnelblick
-  - vagrant
-  - virtualbox
-  - visual-studio-code
-  - wifi-explorer
+  - [alfred](https://www.alfredapp.com/)
+  - [amazon-workdocs](https://aws.amazon.com/workdocs/)
+  - [amazon-workspaces](https://aws.amazon.com/workspaces/)
+  - [atom](https://atom.io/)
+  - [caffeine](http://lightheadsw.com/caffeine/)
+  - [charles](https://www.charlesproxy.com/)
+  - [clipmenu](http://www.clipmenu.com/)
+  - [coconutbattery](http://www.coconut-flavour.com/coconutbattery/)
+  - [cyberduck](https://cyberduck.io/?l=en)
+  - [docker](https://www.docker.com/products/docker)
+  - [dropbox](https://www.dropbox.com/)
+  - [fantastical](https://flexibits.com/fantastical)
+  - [firefox](https://www.mozilla.org/en-GB/firefox/)
+  - [flux](https://justgetflux.com/)
+  - [gas-mask](https://github.com/2ndalpha/gasmask)
+  - [gitter](https://gitter.im/)
+  - [github-desktop](https://desktop.github.com/)
+  - [google-chrome](https://www.google.co.uk/chrome/)
+  - [google-drive](https://www.google.com/drive/)
+  - [google-hangouts](https://hangouts.google.com/)
+  - [intellij-idea](https://www.jetbrains.com/idea/)
+  - [iterm2](https://www.iterm2.com/)
+  - [istat-menus](https://bjango.com/mac/istatmenus/)
+  - [java](https://www.java.com/en/)
+  - [jump-desktop](https://jumpdesktop.com/)
+  - [joinme](https://www.join.me/)
+  - [kitematic](https://kitematic.com/)
+  - [kindle](https://www.amazon.com/Kindle-eBooks/)
+  - [limechat](http://limechat.net/mac/)
+  - [omnigraffle](https://www.omnigroup.com/omnigraffle)
+  - [pgadmin4](https://www.pgadmin.org/)
+  - [postico](https://eggerapps.at/postico/)
+  - [postman](https://www.getpostman.com/)
+  - [powershell](https://msdn.microsoft.com/en-us/powershell/)
+  - [pycharm](https://www.jetbrains.com/pycharm/)
+  - [sequel-pro](https://www.sequelpro.com/)
+  - [skitch](https://evernote.com/skitch/)
+  - [slack](https://slack.com/)
+  - [sublime-text](https://www.sublimetext.com/)
+  - [tomighty](http://tomighty.org/)
+  - [transmit](https://panic.com/transmit/)
+  - [tunnelblick](https://tunnelblick.net/)
+  - [vagrant](https://www.vagrantup.com/)
+  - [virtualbox](https://www.virtualbox.org/)
+  - [visual-studio-code](https://code.visualstudio.com/)
+  - [wifi-explorer](https://www.adriangranados.com/apps/wifi-explorer)
 
 ## 
 
