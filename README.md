@@ -190,6 +190,9 @@ Packages(Homebrew):
   - [visual-studio-code](https://code.visualstudio.com/)
   - [wifi-explorer](https://www.adriangranados.com/apps/wifi-explorer)
 
-## 
+## Testing the Playbook
+Instructions to build a Mac OS X VirtualBox VM(geerlingguy), on which you can continually run and re-run this playbook to test changes and make sure things work correctly.
+
+Additionally, this project is continuously tested on Travis CI's macOS infrastructure.
 
 
