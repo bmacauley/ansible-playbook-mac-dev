@@ -124,6 +124,7 @@ Applications (Homebrew Casks):
   - [s3cmd](http://s3tools.org/s3cmd)
   - [saltstack](https://saltstack.com/)
   - [scons](http://scons.org/)
+  - [spark](https://zachholman.com/spark/)
   - [sqlite](https://sqlite.org/)
   - [ssh-copy-id](https://linux.die.net/man/1/ssh-copy-id)
   - [tccutil](https://github.com/jacobsalmela/tccutil)

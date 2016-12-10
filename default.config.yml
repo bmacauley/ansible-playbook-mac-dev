@@ -96,6 +96,7 @@ homebrew_installed_packages:
   - s3cmd
   - saltstack
   - scons
+  - spark
   - sqlite
   - ssh-copy-id
   - tccutil
