@@ -51,6 +51,7 @@ Applications (Homebrew Casks):
   - autoconf
   - bash
   - bash-completion
+  - [battery](https://github.com/Goles/Battery)
   - [cowsay](https://en.wikipedia.org/wiki/Cowsay)
   - [ctags](http://ctags.sourceforge.net/)
   - [curl](https://curl.haxx.se/)

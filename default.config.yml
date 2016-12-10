@@ -23,6 +23,7 @@ homebrew_installed_packages:
   - autoconf
   - bash 
   - bash-completion
+  - battery
   - cowsay
   - ctags
   - curl
@@ -121,6 +122,7 @@ homebrew_taps:
   - homebrew/dupes
   - homebrew/versions
   - homebrew/completions
+  - Goles/battery
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
