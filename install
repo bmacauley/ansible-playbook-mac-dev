@@ -2,6 +2,10 @@
 # Purpose:
 #	- bootstrap machine in order to prepare for ansible playbook run
 
+RELEASE="v0.2"
+DOWNLOAD="https://github.com/bmacauley/ansible-playbook-mac-dev/archive/$RELEASE.tar.gz"
+
+
 set -e 
 
 # Download and install Command Line Tools if no developer tools exist
@@ -61,8 +65,8 @@ fi
 # Download and run ansible-playbook-mac-dev playbook
 echo "Info   | Download  | ansible-playbook-mac-dev playbook"
 cd /tmp
-curl -fsSL -o ansible-playbook-mac-dev.tar.gz https://github.com/bmacauley/ansible-playbook-mac-dev/archive/master.tar.gz
-tar zxf ansible-playbook-mac-dev.tar.gz
+curl -fsSL -o ansible-playbook-mac-dev.tar.gz $DOWNLOAD
+tar zxf ansible-playbook-mac-dev*.tar.gz
 
 # Modify the PATH
 # This should be subsequently updated in shell settings
@@ -70,7 +74,7 @@ export PATH=/usr/local/bin:$PATH
 
 
 echo "Info   | Run | ansible-playbook-mac-dev playbook"
-cd /tmp/ansible-playbook-mac-dev-master
+cd /tmp/ansible-playbook-mac-dev-*
 ansible-galaxy install -r requirements.yml 
 ansible-playbook main.yml -i inventory -K
 
