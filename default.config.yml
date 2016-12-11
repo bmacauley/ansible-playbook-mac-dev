@@ -13,7 +13,7 @@ configure_sudoers: no
 #   - .inputrc
 #   - .osx
 #   - .vimrc
-
+#
 
 homebrew_installed_packages:
   - ack
