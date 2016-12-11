@@ -182,6 +182,7 @@ Packages(Homebrew):
   - [pycharm](https://www.jetbrains.com/pycharm/)
   - [sequel-pro](https://www.sequelpro.com/)
   - [skitch](https://evernote.com/skitch/)
+  - [sourcetree](https://www.sourcetreeapp.com/)
   - [slack](https://slack.com/)
   - [sublime-text](https://www.sublimetext.com/)
   - [tomighty](http://tomighty.org/)

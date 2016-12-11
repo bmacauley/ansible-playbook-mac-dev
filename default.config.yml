@@ -173,6 +173,7 @@ homebrew_cask_apps:
   # - skype
   - skitch
   - slack
+  - sourcetree
   - sublime-text
   - tomighty
   - transmit
