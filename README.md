@@ -16,7 +16,7 @@ It is continually evolving and leans heavily on the following examples on Github
 Run the installer script...
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/bmacauley/ansible-playbook-mac-dev/v0.2/install | bash
+curl -fsSL https://raw.githubusercontent.com/bmacauley/ansible-playbook-mac-dev/v0.4/install | bash
 ```
 
 The installer script installs Apple's command line tools , Homebrew, Python Pip, Ansible and finally it downloads and runs this playbook
