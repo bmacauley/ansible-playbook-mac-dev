@@ -130,6 +130,7 @@ Applications (Homebrew Casks):
   - [ssh-copy-id](https://linux.die.net/man/1/ssh-copy-id)
   - [tccutil](https://github.com/jacobsalmela/tccutil)
   - [terraform](https://www.terraform.io/)
+  - [terragrunt](https://github.com/gruntwork-io/terragrunt)
   - [the_platinum_searcher](https://github.com/monochromegane/the_platinum_searcher)
   - [the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
   - [tig](https://github.com/jonas/tig)
