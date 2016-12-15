@@ -2,7 +2,7 @@
 # Purpose:
 #	- bootstrap machine in order to prepare for ansible playbook run
 
-RELEASE="v0.2"
+RELEASE="v0.4"
 DOWNLOAD="https://github.com/bmacauley/ansible-playbook-mac-dev/archive/$RELEASE.tar.gz"
 
 
