@@ -69,6 +69,7 @@ Applications (Homebrew Casks):
   - [git](https://git-scm.com/)
   - [git-crypt](https://github.com/AGWA/git-crypt)
   - git-flow
+  - [github-release](https://github.com/aktau/github-release)
   - [git-subrepo](https://github.com/ingydotnet/git-subrepo)
   - [gitup](http://gitup.co/)
   - [go](https://golang.org/)

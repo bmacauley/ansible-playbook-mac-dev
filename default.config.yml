@@ -41,6 +41,7 @@ homebrew_installed_packages:
   - git
   - git-crypt
   - git-flow
+  - github-release
   - git-subrepo
   - gitup
   - go
