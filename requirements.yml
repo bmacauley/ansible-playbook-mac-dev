@@ -1,6 +1,6 @@
 ---
 - src: https://github.com/bmacauley/ansible-role-homebrew
-  version: master
+  version: v0.2
   name: ansible-role-homebrew
 
 # - src: https://github.com/bmacauley/ansible-role-dotfiles

@@ -14,7 +14,7 @@ configure_sudoers: no
 #   - .osx
 #   - .vimrc
 
-
+homebrew_upgrade_all_packages: yes
 homebrew_installed_packages:
   - ack
   - awscli
@@ -115,7 +115,7 @@ homebrew_installed_packages:
   - wrk
   - zeromq
   - zsh
- 
+
 
 homebrew_taps:
   - homebrew/core
