@@ -7,11 +7,17 @@ dotfiles_repo: https://github.com/bmacauley/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
-#   - .bash_profile
+  - .bash_profile
+  - .bashrc
+  - .bash_prompt
+  - .aliases
+  - .paths
+  - .zprofile
+  - .zshrc
   - .gitconfig
-#   - .gitignore
+  - .gitignore
 #   - .inputrc
-#   - .vimrc
+  - .vimrc
 
 homebrew_upgrade_all_packages: yes
 homebrew_installed_packages:
