@@ -195,3 +195,4 @@ homebrew_cask_apps:
 
 # Vim config
 vundle_repo: https://github.com/gmarik/Vundle.vim.git
+vundle_repo_accept_hostkey: yes
