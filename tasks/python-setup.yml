@@ -7,4 +7,5 @@
 - name: Install Python virtualenvwrapper
   pip:
     name: virtualenvwrapper
+    version: 4.6.0
     state: latest
