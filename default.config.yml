@@ -11,11 +11,16 @@ dotfiles_files:
   - .bash_profile
   - .bashrc
   - .bash_prompt
+  - .editorconfig
+  - .functions
   - .gitconfig
   - .gitignore
+  - .macos
   - .paths
+  - .tmux.conf
   - .vim
   - .vimrc
+  - .tmux.conf
   - .zprofile
   - .zshrc
   - .zsh_prompt
