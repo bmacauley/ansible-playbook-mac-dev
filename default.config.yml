@@ -192,3 +192,6 @@ homebrew_cask_apps:
   - wifi-explorer
   # - vlc
   # 
+
+# Vim config
+dotfiles_repo: https://github.com/gmarik/Vundle.vim.git
