@@ -3,6 +3,7 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: no
 
+# Install dotfiles from a git repo
 dotfiles_repo: https://github.com/bmacauley/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/.dotfiles
@@ -25,6 +26,7 @@ dotfiles_files:
   - .zshrc
   - .zsh_prompt
 
+# Install/upgrade homebrew packages/taps/casks
 homebrew_upgrade_all_packages: yes
 homebrew_installed_packages:
   - ack
