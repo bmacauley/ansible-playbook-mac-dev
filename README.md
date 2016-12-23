@@ -51,6 +51,7 @@ Applications (Homebrew Casks):
   - autoconf
   - bash
   - bash-completion
+  - [bfg](https://github.com/rtyley/bfg-repo-cleaner)
   - [battery](https://github.com/Goles/Battery)
   - [cowsay](https://en.wikipedia.org/wiki/Cowsay)
   - [ctags](http://ctags.sourceforge.net/)
@@ -60,6 +61,7 @@ Applications (Homebrew Casks):
   - [docker-compose](https://docs.docker.com/compose/)
   - docker-gen
   - docker-machine
+  - [duti](https://github.com/moretension/duti)
   - enca
   - [fish](https://fishshell.com/)
   - [freetds](http://www.freetds.org/)
@@ -92,6 +94,7 @@ Applications (Homebrew Casks):
   - libyaml
   - [macvim](http://macvim-dev.github.io/macvim/)
   - [maven](https://maven.apache.org/)
+  - [mas](https://github.com/mas-cli/mas)
   - [mcrypt](http://mcrypt.sourceforge.net/)
   - md5sha1sum
   - [mercurial](https://www.mercurial-scm.org/)

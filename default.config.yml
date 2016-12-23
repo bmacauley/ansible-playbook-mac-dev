@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - bash
   - bash-completion
   - battery
+  - bfg
   - cowsay
   - ctags
   - curl
@@ -45,6 +46,7 @@ homebrew_installed_packages:
   - docker-compose
   - docker-gen
   - docker-machine
+  - duti
   - enca
   - fish
   - freetds
@@ -76,6 +78,7 @@ homebrew_installed_packages:
   - libxml2
   - libyaml
   - macvim
+  - mas
   - maven
   - mcrypt
   - md5sha1sum
