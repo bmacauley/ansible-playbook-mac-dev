@@ -59,6 +59,7 @@ homebrew_installed_packages:
   - github-release
   - git-subrepo
   - gitup
+  - glide
   - go
   - gpg
   - gradle
