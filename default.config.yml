@@ -216,3 +216,10 @@ bash_git_prompt_repo_accept_hostkey: yes
 zsh_git_prompt_repo: https://github.com/bmacauley/zsh-git-prompt.git
 zsh_git_prompt_repo_accept_hostkey: yes
 
+# Powerline fonts
+powerline_fonts_repo: https://github.com/powerline/fonts.git
+powerline_fonts_repo_version: 2015-12-04
+powerline_fonts_repo_accept_hostkey: yes
+
+
+

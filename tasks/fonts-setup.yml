@@ -1,1 +1,11 @@
 ---
+- name: Clone powerline/fonts repository to /tmp directory
+  git:
+    repo: "{{ powerline_fonts_repo }}"
+    version: "{{ powerline_fonts_repo_version }}"
+    dest: /tmp/powerline-fonts
+    accept_hostkey: "{{ powerline_fonts_repo_accept_hostkey }}"
+  become: no
+
+- name: Run powerline fonts installer script
+  script: /tmp/powerline-fonts/install.sh
