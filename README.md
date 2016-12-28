@@ -16,7 +16,7 @@ It is continually evolving and leans heavily on the following examples on Github
 Run the installer script...
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/bmacauley/ansible-playbook-mac-dev/v0.2/install | bash
+curl -fsSL https://raw.githubusercontent.com/bmacauley/ansible-playbook-mac-dev/master/install | bash
 ```
 
 The installer script installs Apple's command line tools , Homebrew, Python Pip, Ansible and finally it downloads and runs this playbook
@@ -51,6 +51,7 @@ Applications (Homebrew Casks):
   - autoconf
   - bash
   - bash-completion
+  - [bfg](https://github.com/rtyley/bfg-repo-cleaner)
   - [battery](https://github.com/Goles/Battery)
   - [cowsay](https://en.wikipedia.org/wiki/Cowsay)
   - [ctags](http://ctags.sourceforge.net/)
@@ -60,6 +61,7 @@ Applications (Homebrew Casks):
   - [docker-compose](https://docs.docker.com/compose/)
   - docker-gen
   - docker-machine
+  - [duti](https://github.com/moretension/duti)
   - enca
   - [fish](https://fishshell.com/)
   - [freetds](http://www.freetds.org/)
@@ -69,6 +71,7 @@ Applications (Homebrew Casks):
   - [git](https://git-scm.com/)
   - [git-crypt](https://github.com/AGWA/git-crypt)
   - git-flow
+  - [github-release](https://github.com/aktau/github-release)
   - [git-subrepo](https://github.com/ingydotnet/git-subrepo)
   - [gitup](http://gitup.co/)
   - [go](https://golang.org/)
@@ -91,6 +94,7 @@ Applications (Homebrew Casks):
   - libyaml
   - [macvim](http://macvim-dev.github.io/macvim/)
   - [maven](https://maven.apache.org/)
+  - [mas](https://github.com/mas-cli/mas)
   - [mcrypt](http://mcrypt.sourceforge.net/)
   - md5sha1sum
   - [mercurial](https://www.mercurial-scm.org/)
@@ -130,6 +134,7 @@ Applications (Homebrew Casks):
   - [ssh-copy-id](https://linux.die.net/man/1/ssh-copy-id)
   - [tccutil](https://github.com/jacobsalmela/tccutil)
   - [terraform](https://www.terraform.io/)
+  - [terragrunt](https://github.com/gruntwork-io/terragrunt)
   - [the_platinum_searcher](https://github.com/monochromegane/the_platinum_searcher)
   - [the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
   - [tig](https://github.com/jonas/tig)
