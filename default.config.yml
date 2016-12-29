@@ -203,7 +203,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - wifi-explorer
   # - vlc
-  # 
+  #
 
 # Vim config
 vundle_repo: https://github.com/gmarik/Vundle.vim.git
@@ -220,6 +220,17 @@ zsh_git_prompt_repo_accept_hostkey: yes
 powerline_fonts_repo: https://github.com/powerline/fonts.git
 powerline_fonts_repo_version: 2015-12-04
 powerline_fonts_repo_accept_hostkey: yes
+
+# SublimeText
+sublime_text_color_scheme: "MonokaiGray (SL).tmTheme"
+sublime_text_theme: "Soda Dark 3.sublime-theme"
+sublime_packages:
+  - dest: "Theme - Soda"
+    repo: "https://github.com/buymeasoda/soda-theme.git"
+    version: "master"
+  - dest: "Monokai Gray"
+    repo: "https://github.com/IanWold/MonokaiGray.git"
+    version: "master"
 
 
 

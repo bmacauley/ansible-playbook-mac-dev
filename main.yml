@@ -13,6 +13,7 @@
   roles:
     - ansible-role-homebrew
     - ansible-role-dotfiles
+    - ansible-role-sublimetext
 
   tasks:
     - include: tasks/ansible-setup.yml
