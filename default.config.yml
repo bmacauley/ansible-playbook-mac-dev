@@ -221,16 +221,232 @@ powerline_fonts_repo: https://github.com/powerline/fonts.git
 powerline_fonts_repo_version: 2015-12-04
 powerline_fonts_repo_accept_hostkey: yes
 
-# SublimeText
+# Configure SublimeText/Install packages
 sublime_text_color_scheme: "MonokaiGray (SL).tmTheme"
 sublime_text_theme: "Soda Dark 3.sublime-theme"
 sublime_packages:
   - dest: "Theme - Soda"
     repo: "https://github.com/buymeasoda/soda-theme.git"
     version: "master"
+
   - dest: "Monokai Gray"
     repo: "https://github.com/IanWold/MonokaiGray.git"
     version: "master"
 
+  - dest: "Alignment"
+    repo: "https://github.com/wbond/sublime_alignment"
+    version: "master"
+
+  - dest: "Anaconda"
+    repo: "https://github.com/DamnWidget/anaconda"
+    version: "master"
+
+  - dest: "Ansible"
+    repo: "https://github.com/clifford-github/sublime-ansible"
+    version: "master"
+
+  - dest: "Ansible Vault"
+    repo: "https://github.com/adambullmer/sublime_ansible_vault"
+    version: "master"
+
+  - dest: "BracketHighlighter"
+    repo: "https://github.com/facelessuser/BracketHighlighter"
+    version: "master"
+
+  - dest: "Case Conversion"
+    repo: "https://github.com/jdc0589/CaseConversion"
+    version: "master"
+
+  - dest: "Cform"
+    repo: "https://github.com/beaknit/cform"
+    version: "master"
+
+  - dest: "Colorsublime"
+    repo: "https://github.com/Colorsublime/Colorsublime-Plugin"
+    version: "master"
+
+  - dest: "DocBlockr"
+    repo: "https://github.com/spadgos/sublime-jsdocs"
+    version: "master"
+
+  - dest: "Dockerfile Syntax Highlighting"
+    repo: "https://github.com/asbjornenge/Docker.tmbundle"
+    version: "master"
+
+  - dest: "DocBlockr_python"
+    repo: "https://github.com/adambullmer/sublime_docblockr_python"
+    version: "master"
+
+  - dest: "Dotfiles Syntax Highlighting"
+    repo: "https://github.com/mattbanks/dotfiles-syntax-highlighting-st2"
+    version: "master"
+
+  - dest: "EditorConfig"
+    repo: "https://github.com/sindresorhus/editorconfig-sublime"
+    version: "master"
+
+  - dest: "Emmet"
+    repo: "https://github.com/sergeche/emmet-sublime"
+    version: "master"
+
+  - dest: "FileDiffs"
+    repo: "https://github.com/colinta/SublimeFileDiffs"
+    version: "master"
+
+  - dest: "Gist"
+    repo: "https://github.com/condemil/Gist"
+    version: "master"
+
+  - dest: "Git"
+    repo: "https://github.com/kemayo/sublime-text-git"
+    version: "master"
+
+  - dest: "Git Config"
+    repo: "https://github.com/robballou/gitconfig-sublimetext"
+    version: "master"
+
+  - dest: "GitGutter"
+    repo: "https://github.com/jisaacks/GitGutter"
+    version: "master"
+
+  - dest: "Github Tools"
+    repo: "https://github.com/temochka/sublime-text-2-github-tools"
+    version: "master"
+
+  - dest: "GoGuru"
+    repo: "https://github.com/alvarolm/GoGuru"
+    version: "master"
+
+  - dest: "GoImports"
+    repo: "https://github.com/ticcky/sublime_goimports"
+    version: "master"
+
+  - dest: "Golang Build"
+    repo: "https://github.com/golang/sublime-build"
+    version: "master"
+
+  - dest: "GoSublime"
+    repo: "https://github.com/DisposaBoy/GoSublime"
+    version: "master"
+
+  - dest: "GoOracle"
+    repo: "https://github.com/waigani/GoOracle"
+    version: "master"
+
+  - dest: "HexViewer"
+    repo: "https://github.com/facelessuser/HexViewer"
+    version: "master"
+
+  - dest: "HTML5"
+    repo: "https://github.com/mrmartineau/HTML5"
+    version: "master"
+
+  - dest: "Hugofy"
+    repo: "https://github.com/akmittal/Hugofy"
+    version: "master"
+
+  - dest: "Jedi - Python autocompletion"
+    repo: "https://github.com/srusskih/SublimeJEDI"
+    version: "master"
+
+  - dest: "JSHint"
+    repo: "https://github.com/uipoet/sublime-jshint"
+    version: "master"
+
+  - dest: "JSHint Gutter"
+    repo: "https://github.com/victorporof/Sublime-JSHint"
+    version: "master"
+
+  - dest: "JSONLint"
+    repo: "https://bitbucket.org/hmml/jsonlint.git"
+    version: "master"
+
+  - dest: "License Snippets"
+    repo: "https://github.com/sijk/sublime-licence-snippets"
+    version: "master"
+
+  - dest: "LiveReload"
+    repo: "https://github.com/alepez/LiveReload-sublimetext3"
+    version: "master"
+
+  - dest: "LoremIpsum"
+    repo: "https://github.com/billymoon/LoremIpsum"
+    version: "master"
+
+  - dest: "Magic Python"
+    repo: "https://github.com/MagicStack/MagicPython"
+    version: "master"
+
+  - dest: "Markdown Extended"
+    repo: "https://github.com/jonschlinkert"
+    version: "master"
+
+  - dest: "Markdown Preview"
+    repo: "https://github.com/revolunet/sublimetext-markdown-preview"
+    version: "master"
+
+  - dest: "MarkdownEditing"
+    repo: "https://github.com/SublimeText-Markdown/MarkdownEditing"
+    version: "master"
+
+  - dest: "nginx"
+    repo: "https://github.com/brandonwamboldt/sublime-nginx"
+    version: "master"
+
+  - dest: "Nodejs"
+    repo: "https://github.com/tanepiper/SublimeText-Nodejs"
+    version: "master"
+
+  - dest: "PowerShell"
+    repo: "https://github.com/SublimeText/PowerShell"
+    version: "master"
+
+  - dest: "Pretty JSON"
+    repo: "https://github.com/dzhibas/SublimePrettyJson"
+    version: "master"
+
+  - dest: "Sass"
+    repo: "https://github.com/nathos/sass-textmate-bundle"
+    version: "master"
+
+  - dest: "SideBarEnhancements"
+    repo: "https://github.com/SideBarEnhancements-org/SideBarEnhancements"
+    version: "master"
+
+  - dest: "sublime-github"
+    repo: "https://github.com/bgreenlee/sublime-github"
+    version: "master"
+
+  - dest: "SublimeLinter"
+    repo: "https://github.com/SublimeLinter/SublimeLinter3"
+    version: "master"
+
+  - dest: "SublimeLinter-annotations"
+    repo: "https://github.com/SublimeLinter/SublimeLinter-annotations"
+    version: "master"
+
+  - dest: "SublimeLinter-json"
+    repo: "https://github.com/SublimeLinter/SublimeLinter-json"
+    version: "master"
+
+  - dest: "SublimeLinter-shellcheck"
+    repo: "https://github.com/SublimeLinter/SublimeLinter-shellcheck"
+    version: "master"
+
+  - dest: "Terraform"
+    repo: "https://github.com/alexlouden/Terraform.tmLanguage"
+    version: "master"
+
+  - dest: "TodoReview"
+    repo: "https://github.com/jonathandelgado/SublimeTodoReview"
+    version: "master"
+
+  - dest: "Unicode Character Highlighter"
+    repo: "https://github.com/possan/sublime_unicode_nbsp"
+    version: "master"
+
+  - dest: "Vagrant"
+    repo: "https://github.com/Stubbs/sublime-vagrant"
+    version: "master"
 
 
