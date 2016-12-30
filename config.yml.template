@@ -1,0 +1,13 @@
+---
+homebrew_installed_packages:
+  - ack
+
+homebrew_cask_apps:
+  - amazon-drive
+  - airmail-beta
+
+
+sublime_packages:
+  - dest: "Theme - Soda"
+    repo: "https://github.com/buymeasoda/soda-theme"
+    version: "master"
