@@ -3,8 +3,7 @@ homebrew_installed_packages:
   - ack
 
 homebrew_cask_apps:
-  - amazon-drive
-  - airmail-beta
+  - skype
 
 
 sublime_packages:

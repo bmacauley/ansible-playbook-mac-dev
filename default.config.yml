@@ -146,8 +146,6 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  #- amazon-drive
-  #- airmail-beta
   - alfred
   - amazon-workdocs
   - amazon-workspaces
@@ -160,7 +158,6 @@ homebrew_cask_apps:
   - docker
   - dropbox
   - fantastical
-  #- fing
   - firefox
   - flux
   - gas-mask
@@ -169,7 +166,7 @@ homebrew_cask_apps:
   - google-chrome
   - google-drive
   - google-hangouts
-  # - handbrake
+  - handbrake
   - intellij-idea
   - iterm2
   - istat-menus
@@ -178,11 +175,7 @@ homebrew_cask_apps:
   - joinme
   - kitematic
   - kindle
-  # - kdiff3
-  # - licecap
   - limechat
-  # - yujitach-menumeters # Note: Using forked version for 10.11+ support
-  # - nvalt
   - omnigraffle
   - pgadmin4
   - postico
@@ -202,8 +195,8 @@ homebrew_cask_apps:
   - virtualbox
   - visual-studio-code
   - wifi-explorer
-  # - vlc
-  #
+  - vlc
+
 
 # Vim config
 vundle_repo: https://github.com/gmarik/Vundle.vim.git
