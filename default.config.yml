@@ -233,7 +233,95 @@ sublime_packages:
     repo: "https://github.com/IanWold/MonokaiGray.git"
     version: "master"
 
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: "Alignment"
+    repo: ""
+    version: "master"
+
+  - dest: "Anaconda"
+    repo: ""
+    version: "master"
+
+  - dest: "Ansible"
+    repo: ""
+    version: "master"
+
+  - dest: "Ansible Vault"
+    repo: ""
+    version: "master"
 
   - dest: ""
     repo: ""
     version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
+  - dest: ""
+    repo: ""
+    version: "master"
+
