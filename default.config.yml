@@ -371,7 +371,7 @@ sublime_packages:
     version: "master"
 
   - dest: "Markdown Extended"
-    repo: "https://github.com/jonschlinkert"
+    repo: "https://github.com/jonschlinkert/sublime-markdown-extended"
     version: "master"
 
   - dest: "Markdown Preview"
@@ -404,7 +404,7 @@ sublime_packages:
 
   - dest: "SideBarEnhancements"
     repo: "https://github.com/SideBarEnhancements-org/SideBarEnhancements"
-    version: "master"
+    version: "st3"
 
   - dest: "sublime-github"
     repo: "https://github.com/bgreenlee/sublime-github"
