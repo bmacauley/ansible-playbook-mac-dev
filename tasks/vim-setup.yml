@@ -6,5 +6,5 @@
     accept_hostkey: "{{ vundle_repo_accept_hostkey }}"
   become: no
 
-- name:	Install Vim modules
+- name: Install Vim modules
   command: vim -i NONE -c VundleUpdate -c quitall
