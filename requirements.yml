@@ -10,3 +10,7 @@
 - src: https://github.com/bmacauley/ansible-role-sublimetext
   version: master
   name: ansible-role-sublimetext
+
+- src: https://github.com/bmacauley/ansible-role-mas
+  version: master
+  name: ansible-role-mas
