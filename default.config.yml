@@ -16,6 +16,7 @@ dotfiles_files:
   - .functions
   - .gitconfig
   - .gitignore
+  - .hushlogin
   - .macos
   - .paths
   - .tmux.conf
