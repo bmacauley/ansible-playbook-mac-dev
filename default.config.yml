@@ -134,6 +134,7 @@ homebrew_installed_packages:
   - wrk
   - zeromq
   - zsh
+  - zsh-completions
 
 homebrew_taps:
   - homebrew/core
