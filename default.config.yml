@@ -36,6 +36,7 @@ homebrew_installed_packages:
   - aws-shell
   # - ansible # Installed via Pip.
   - autoconf
+  - autojump
   - bash
   - bash-completion
   - battery
@@ -50,6 +51,7 @@ homebrew_installed_packages:
   - docker-machine
   - duti
   - enca
+  - fasd
   - fish
   - freetds
   - gdbm
@@ -133,6 +135,7 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zeromq
+  - z
   - zsh
   - zsh-completions
 
