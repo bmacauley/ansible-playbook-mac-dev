@@ -1,0 +1,25 @@
+---
+- name: Set up ~/projects directory
+  file:
+    path: ~/projects
+    state: directory
+
+- name: Set up ~/scripts directory
+  file:
+    path: ~/scripts
+    state: directory
+
+- name: Set up ~/build directory
+  file:
+    path: ~/build
+    state: directory
+
+- name: Set up ~/.virtualenvs directory
+  file:
+    path: ~/.virtualenvs
+    state: directory
+
+- name: Set up ~/go directory
+  file:
+    path: ~/.virtualenvs
+    state: directory
