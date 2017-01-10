@@ -44,7 +44,7 @@ fi
 
 if [[ ! -x /usr/local/bin/pip ]]; then
     echo "Info   | Install   | Pip"
-    easy_install pip
+    sudo -k easy_install pip
 fi
 
 
