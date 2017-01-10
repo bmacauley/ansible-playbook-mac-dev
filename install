@@ -6,7 +6,7 @@ RELEASE="master"
 DOWNLOAD="https://github.com/bmacauley/ansible-playbook-mac-dev/archive/$RELEASE.tar.gz"
 
 
-set -e 
+set -e
 
 # Download and install Command Line Tools if no developer tools exist
 #       * previous evaluation didn't work completely, due to gcc binary existing for vanilla os x install
@@ -40,11 +40,16 @@ if [[ ! -x /usr/local/bin/brew ]]; then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Download and install Pip
+# Download and install Python
+if [[ ! -x /usr/local/bin/python ]]; then
+    echo "Info   | Install   | Python"
+    brew install python
+fi
 
+# Download and install Pip
 if [[ ! -x /usr/local/bin/pip ]]; then
     echo "Info   | Install   | Pip"
-    sudo -k easy_install pip
+    easy_install pip
 fi
 
 
@@ -75,6 +80,6 @@ export PATH=/usr/local/bin:$PATH
 
 echo "Info   | Run | ansible-playbook-mac-dev playbook"
 cd /tmp/ansible-playbook-mac-dev-*
-ansible-galaxy install -r requirements.yml 
+ansible-galaxy install -r requirements.yml
 ansible-playbook main.yml -i inventory -K
 
