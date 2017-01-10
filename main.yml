@@ -11,10 +11,11 @@
         - ../config.yml
 
   roles:
-    - ansible-role-homebrew
-    - ansible-role-mas
     - ansible-role-dotfiles
+    - ansible-role-homebrew
     - ansible-role-sublimetext
+    - ansible-role-mas
+
 
   tasks:
     - include: tasks/ansible-setup.yml
