@@ -40,11 +40,20 @@ if [[ ! -x /usr/local/bin/brew ]]; then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+
+# Download and install Java
+if [[ ! -x /usr/bin/java ]]; the
+    echo "Info   | Install   | Java"
+    brew cask install java
+fi
+
+
 # Download and install Python
-if [[ ! -x /usr/local/bin/python ]]; then
+if [[ ! -x /usr/local/bin/python ]]; the
     echo "Info   | Install   | Python"
     brew install python
 fi
+
 
 # Download and install Pip
 if [[ ! -x /usr/local/bin/pip ]]; then
