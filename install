@@ -42,14 +42,14 @@ fi
 
 
 # Download and install Java
-if [[ ! -x /usr/bin/java ]]; the
+if [[ ! -x /usr/bin/java ]]; then
     echo "Info   | Install   | Java"
     brew cask install java
 fi
 
 
 # Download and install Python
-if [[ ! -x /usr/local/bin/python ]]; the
+if [[ ! -x /usr/local/bin/python ]]; then
     echo "Info   | Install   | Python"
     brew install python
 fi
