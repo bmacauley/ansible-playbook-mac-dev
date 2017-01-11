@@ -42,7 +42,7 @@ fi
 
 
 # Download and install Java
-if [[ ! -x /Library/Java/JavaVirtualMachines/jdk*.jdk/Contents/Home/bin/java ]]; then
+if [[ $(java 2>&1) =~ "No Java runtime present" ]]; then
     echo "Info   | Install   | Java"
     brew cask install java
 fi
