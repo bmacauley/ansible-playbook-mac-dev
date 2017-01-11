@@ -42,7 +42,7 @@ fi
 
 
 # Download and install Java
-if [[ ! -x /usr/bin/java ]]; then
+if [[ ! -x /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java ]]; then
     echo "Info   | Install   | Java"
     brew cask install java
 fi
