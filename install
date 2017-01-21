@@ -4,9 +4,9 @@
 
 RELEASE="master"
 DOWNLOAD="https://github.com/bmacauley/ansible-playbook-mac-dev/archive/$RELEASE.tar.gz"
+AUTH="$TOKEN:x-oauth-basic"
 
-
-set -e 
+set -e
 
 # Download and install Command Line Tools if no developer tools exist
 #       * previous evaluation didn't work completely, due to gcc binary existing for vanilla os x install
@@ -65,7 +65,7 @@ fi
 # Download and run ansible-playbook-mac-dev playbook
 echo "Info   | Download  | ansible-playbook-mac-dev playbook"
 cd /tmp
-curl -fsSL -o ansible-playbook-mac-dev.tar.gz $DOWNLOAD
+curl -fsSL -o  $DOWNLOAD
 tar zxf ansible-playbook-mac-dev*.tar.gz
 
 # Modify the PATH
@@ -75,6 +75,6 @@ export PATH=/usr/local/bin:$PATH
 
 echo "Info   | Run | ansible-playbook-mac-dev playbook"
 cd /tmp/ansible-playbook-mac-dev-*
-ansible-galaxy install -r requirements.yml 
+ansible-galaxy install -r requirements.yml
 ansible-playbook main.yml -i inventory -K
 
