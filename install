@@ -80,7 +80,7 @@ fi
 # Download and run ansible-playbook-mac-dev playbook
 echo "Info   | Download  | ansible-playbook-mac-dev playbook"
 cd /tmp
-curl -fsSL -o  $DOWNLOAD
+curl -fsSL -o ansible-playbook-mac-dev.tar.gz $DOWNLOAD
 tar zxf ansible-playbook-mac-dev*.tar.gz
 
 # Modify the PATH
