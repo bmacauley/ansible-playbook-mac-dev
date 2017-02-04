@@ -4,7 +4,7 @@
 
 RELEASE="master"
 DOWNLOAD="https://github.com/bmacauley/ansible-playbook-mac-dev/archive/$RELEASE.tar.gz"
-AUTH="$TOKEN:x-oauth-basic"
+
 
 
 set -e
