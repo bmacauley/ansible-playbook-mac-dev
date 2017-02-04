@@ -1,1 +1,3 @@
 ---
+- name: Configure macOS preferences(iTerm2, etc)
+  command: sh ~/.macos

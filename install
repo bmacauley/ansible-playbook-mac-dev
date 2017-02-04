@@ -6,6 +6,7 @@ RELEASE="master"
 DOWNLOAD="https://github.com/bmacauley/ansible-playbook-mac-dev/archive/$RELEASE.tar.gz"
 AUTH="$TOKEN:x-oauth-basic"
 
+
 set -e
 
 # Download and install Command Line Tools if no developer tools exist
@@ -40,8 +41,22 @@ if [[ ! -x /usr/local/bin/brew ]]; then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Download and install Pip
 
+# Download and install Java
+if [[ $(java 2>&1) =~ "No Java runtime present" ]]; then
+    echo "Info   | Install   | Java"
+    brew cask install java
+fi
+
+
+# Download and install Python
+if [[ ! -x /usr/local/bin/python ]]; then
+    echo "Info   | Install   | Python"
+    brew install python
+fi
+
+
+# Download and install Pip
 if [[ ! -x /usr/local/bin/pip ]]; then
     echo "Info   | Install   | Pip"
     easy_install pip

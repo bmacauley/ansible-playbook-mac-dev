@@ -151,7 +151,7 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alfred
-  - amazon-workdocs
+#  - amazon-workdocs # broken installer?
   - amazon-workspaces
   - atom
   - caffeine
@@ -219,7 +219,7 @@ powerline_fonts_repo_version: 2015-12-04
 powerline_fonts_repo_accept_hostkey: yes
 
 # Install/Update Sublime packages
-sublime_text_color_scheme: "MonokaiGray (SL).tmTheme"
+sublime_text_color_scheme: "Packages/Monokai Gray/MonokaiGray.tmTheme"
 sublime_text_theme: "Soda Dark 3.sublime-theme"
 sublime_packages:
   - dest: "Theme - Soda"
