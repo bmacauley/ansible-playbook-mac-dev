@@ -198,7 +198,7 @@ homebrew_cask_apps:
   - vagrant
   - virtualbox
   - visual-studio-code
-  - wifi-explorer
+  #- wifi-explorer
   - vlc
 
 
@@ -475,5 +475,3 @@ mas_installed_app_ids:
       - 1088791669 # Kidslox
       - 408981434 # iMovie
       - 409183694 # keynote
-
-
