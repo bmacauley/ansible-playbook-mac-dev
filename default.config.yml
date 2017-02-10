@@ -157,7 +157,7 @@ homebrew_cask_apps:
   - caffeine
   - charles
   - clipmenu
-  - coconutbattery
+#  - coconutbattery
   - cyberduck
   - docker
   - dropbox
