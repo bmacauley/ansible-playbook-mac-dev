@@ -20,8 +20,8 @@ dotfiles_files:
   - .macos
   - .paths
   - .tmux.conf
-  - .vim
-  - .vimrc
+#  - .vim
+#  - .vimrc
   - .tmux.conf
   - .zprofile
   - .zshrc
@@ -203,7 +203,7 @@ homebrew_cask_apps:
 
 
 # Vim config
-vundle_repo: https://github.com/gmarik/Vundle.vim.git
+vundle_repo: https://github.com/amix/vimrc.git
 vundle_repo_accept_hostkey: yes
 
 

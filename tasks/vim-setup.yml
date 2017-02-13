@@ -2,9 +2,9 @@
 - name: Clone Vundle repository
   git:
     repo: "{{ vundle_repo }}"
-    dest: "{{ dotfiles_repo_local_destination }}/.vim/bundle/Vundle.vim"
+    dest: "~/.vim_runtime"
     accept_hostkey: "{{ vundle_repo_accept_hostkey }}"
   become: no
 
 - name: Install Vim modules
-  command: vim -i NONE -c VundleUpdate -c quitall
+  command: sh ~/.vim_runtime/install_awesome_vimrc.sh
