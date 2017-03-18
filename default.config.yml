@@ -151,12 +151,12 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alfred
-#  - amazon-workdocs # broken installer?
+  - amazon-workdocs
   - amazon-workspaces
   - atom
   - caffeine
   - charles
-  - clipmenu
+ # - clipmenu
   - coconutbattery
   - cyberduck
   - docker
