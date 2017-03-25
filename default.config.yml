@@ -42,6 +42,7 @@ homebrew_installed_packages:
   - battery
   - bfg
   - cowsay
+  - consul
   - ctags
   - curl
   - docker
@@ -95,6 +96,7 @@ homebrew_installed_packages:
   - mysql
   - nmap
   - node
+  - nomad
   - npm
   - nvm
   - nginx
@@ -132,6 +134,7 @@ homebrew_installed_packages:
   - tmux
   - tree
   - unixodbc
+  - vault
   - vim
   - wget
   - wrk
