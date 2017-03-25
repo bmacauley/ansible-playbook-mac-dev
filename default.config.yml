@@ -66,6 +66,7 @@ homebrew_installed_packages:
   - glide
   - go
   - gpg
+  - gpg2
   - gradle
   - hub
   - heroku
@@ -170,6 +171,7 @@ homebrew_cask_apps:
   - google-chrome
   - google-drive
   - google-hangouts
+  - gpgtools
   - handbrake
   - intellij-idea
   - iterm2
