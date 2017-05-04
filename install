@@ -21,7 +21,7 @@ set -e
 # if either of the conditions are met, install dev tools
 
 echo '==================================='
-echo 'Macbook dev tools installer'
+echo 'Macbook dev tools installer jn'
 echo '==================================='
 echo
 echo ' Uses the following Ansible playbook...'
