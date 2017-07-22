@@ -59,7 +59,7 @@ fi
 # Download and install Pip
 if [[ ! -x /usr/local/bin/pip ]]; then
     echo "Info   | Install   | Pip"
-    easy_install pip
+    easy_install --user pip
 fi
 
 
