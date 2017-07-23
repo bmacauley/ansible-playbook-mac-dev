@@ -56,17 +56,17 @@ if [[ ! -x /usr/local/bin/python ]]; then
 fi
 
 
-# Download and install Pip
+# Download and install Pip into Python installed by Brew
 if [[ ! -x /usr/local/bin/pip ]]; then
     echo "Info   | Install   | Pip"
-    easy_install --user pip
+    /usr/local/bin/easy_install-2.7 pip
 fi
 
 
-# Download and install Ansible
+# Download and install Ansible into Python installed by Brew
 if [[ ! -x /usr/local/bin/ansible ]]; then
     echo "Info   | Install   | Ansible"
-    pip install ansible
+    /usr/local/bin/pip install ansible
 fi
 
 
