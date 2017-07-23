@@ -7,6 +7,5 @@
 - name: Install Python virtualenvwrapper
   pip:
     name: virtualenvwrapper
-    extra_args: --ignore-installed six
     state: present
-  become: true
+
