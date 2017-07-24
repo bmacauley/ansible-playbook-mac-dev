@@ -122,6 +122,7 @@ homebrew_installed_packages:
   - s3cmd
   - saltstack
   - scons
+  - sshuttle
   - spark
   - sqlite
   - ssh-copy-id
@@ -180,6 +181,7 @@ homebrew_cask_apps:
   - iterm2
   - istat-menus
   - java
+  - jetbrains-toolbox
   - jump-desktop
   - joinme
   - kitematic
