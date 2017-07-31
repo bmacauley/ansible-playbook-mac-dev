@@ -47,9 +47,14 @@ homebrew_installed_packages:
   - curl
   - docker
   - docker-clean
+  - docker-cloud
+  - docker-completion
   - docker-compose
+  - docker-compose-completion
   - docker-gen
   - docker-machine
+  - docker-machine-completion
+  - docker-swarm
   - duti
   - enca
   - fasd
