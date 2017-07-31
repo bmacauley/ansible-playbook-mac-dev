@@ -41,6 +41,8 @@ homebrew_installed_packages:
   - bash-completion
   - battery
   - bfg
+  - brew-cask-completion
+  - bundler-completion
   - cowsay
   - consul
   - ctags
@@ -74,6 +76,7 @@ homebrew_installed_packages:
   - gpg
   - gpg2
   - gradle
+  - gradle-completion
   - hub
   - heroku
   - heroku-toolbelt
@@ -84,6 +87,8 @@ homebrew_installed_packages:
   - iperf
   - jq
   - keychain
+  - kitchen-completion
+  - launchctl-completion
   - libevent
   - libffi
   - libvterm
@@ -110,13 +115,18 @@ homebrew_installed_packages:
   - openvpn
   - p7zip
   - packer
+  - packer-completion
   - pandoc
   - parallel
+  - pip-completion
   - postgresql
   - pup
   - pv
   - python
   - python3
+  - rails-completion
+  - rake-completion
+  - ruby-completion
   - rancher-cli
   - rancher-compose
   - rbenv
@@ -140,6 +150,7 @@ homebrew_installed_packages:
   - tmux
   - tree
   - unixodbc
+  - vagrant-completion
   - vault
   - vim
   - wget
