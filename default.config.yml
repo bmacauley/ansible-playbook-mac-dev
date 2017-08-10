@@ -144,7 +144,6 @@ homebrew_installed_packages:
   - ssh-copy-id
   - tccutil
   - terraform
-  - terraforming
   - terragrunt
   - the_platinum_searcher
   - the_silver_searcher
