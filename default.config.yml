@@ -65,6 +65,7 @@ homebrew_installed_packages:
   - gdbm
   - geoip
   - gettext
+  - gist
   - git
   - git-crypt
   - git-flow
