@@ -40,11 +40,13 @@ homebrew_installed_packages:
   - bash
   - bash-completion
   - battery
+  - bazel
   - bfg
   - brew-cask-completion
   - bundler-completion
   - cowsay
   - consul
+  - cookiecutter
   - ctags
   - curl
   - docker
@@ -169,6 +171,7 @@ homebrew_taps:
   - homebrew/versions
   - homebrew/completions
   - Goles/battery
+  - facebook/fb/buck
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -176,6 +179,7 @@ homebrew_cask_apps:
   - amazon-workdocs
   - amazon-workspaces
   - atom
+  - buck
   - caffeine
   - charles
  # - clipmenu
