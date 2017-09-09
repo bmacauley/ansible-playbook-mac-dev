@@ -43,6 +43,7 @@ homebrew_installed_packages:
   - bazel
   - bfg
   - brew-cask-completion
+  - buck
   - bundler-completion
   - cowsay
   - consul
@@ -179,7 +180,6 @@ homebrew_cask_apps:
   - amazon-workdocs
   - amazon-workspaces
   - atom
-  - buck
   - caffeine
   - charles
  # - clipmenu
