@@ -53,12 +53,12 @@ homebrew_installed_packages:
   - docker
   - docker-clean
   - docker-cloud
-  - docker-completion
+ # - docker-completion
   - docker-compose
-  - docker-compose-completion
+ # - docker-compose-completion
   - docker-gen
   - docker-machine
-  - docker-machine-completion
+  #- docker-machine-completion
   - docker-swarm
   - duti
   - enca
