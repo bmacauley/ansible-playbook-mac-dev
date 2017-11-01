@@ -192,18 +192,18 @@ homebrew_cask_apps:
   - flux
   - gas-mask
   - gitter
-  - github-desktop
+  # - github-desktop
   - google-chrome
-  - google-drive
+  # - google-drive
   - google-hangouts
-  - gpgtools
+  #- gpgtools
   - handbrake
   - intellij-idea
   - iterm2
   - istat-menus
   - java
   - jetbrains-toolbox
-  - jump-desktop
+  #- jump-desktop
   - joinme
   - kitematic
   - kindle
