@@ -382,6 +382,10 @@ sublime_packages:
     repo: "https://github.com/victorporof/Sublime-JSHint"
     version: "master"
 
+  - dest: "json-kv"
+    repo: "https://github.com/aurule/json-kv.git"
+    version: "master"
+
   - dest: "JSONLint"
     repo: "https://bitbucket.org/hmml/jsonlint.git"
     version: "master"
@@ -489,7 +493,6 @@ mas_installed_app_ids:
       - 407963104 # Pixelmator (purchase)
       - 937984704 # Amphetamine
       - 411246225 # Caffeine
-      - 852320343 # Sketch
       - 441258766 # Magnet
       - 524141863 # Jump Desktop (purchase)
       - 715768417 # Microsoft Remote Desktop
@@ -500,8 +503,8 @@ mas_installed_app_ids:
       - 918858936 # Airmail (purchase)
       - 823766827 # Onedrive
       - 975937182 # Fantastical 2 (purchase)
-      - 1088791669 # Kidslox
-      - 408981434 # iMovie
+#      - 1088791669 # Kidslox
+#      - 408981434 # iMovie
       - 409183694 # keynote
 
 
