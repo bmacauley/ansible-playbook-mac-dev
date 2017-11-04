@@ -126,6 +126,9 @@ homebrew_installed_packages:
   - postgresql
   - pup
   - pv
+  - pyenv
+  - pyenv-virtualenv
+  - pyenv-virtualenvwrapper
   - python
   - python3
   - rails-completion
@@ -182,7 +185,7 @@ homebrew_cask_apps:
   - atom
   - caffeine
   - charles
- # - clipmenu
+  - clipmenu
   - coconutbattery
   - cyberduck
   - docker
@@ -192,18 +195,18 @@ homebrew_cask_apps:
   - flux
   - gas-mask
   - gitter
-  # - github-desktop
+  - github-desktop
   - google-chrome
-  # - google-drive
+  - google-drive
   - google-hangouts
-  #- gpgtools
+  - gpgtools
   - handbrake
   - intellij-idea
   - iterm2
   - istat-menus
   - java
   - jetbrains-toolbox
-  #- jump-desktop
+  - jump-desktop
   - joinme
   - kitematic
   - kindle
@@ -215,7 +218,7 @@ homebrew_cask_apps:
   - powershell
   - pycharm
   - sequel-pro
-  # - skype
+  - skype
   - skitch
   - slack
   - sourcetree
