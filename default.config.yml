@@ -153,6 +153,7 @@ homebrew_installed_packages:
   - ssh-copy-id
   - tccutil
   - terraform
+  - terraform-docs
   - terragrunt
   - the_platinum_searcher
   - the_silver_searcher
@@ -211,6 +212,7 @@ homebrew_cask_apps:
   - jetbrains-toolbox
   - jump-desktop
   - joinme
+  - keybase
   - kitematic
   - kindle
   - limechat
