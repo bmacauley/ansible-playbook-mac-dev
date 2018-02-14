@@ -48,11 +48,13 @@ homebrew_installed_packages:
   - brew-cask-completion
   - buck
   - bundler-completion
+  - cloc
   - cowsay
   - consul
   - cookiecutter
   - ctags
   - curl
+  - direnv
   - docker
   - docker-clean
   - docker-cloud
