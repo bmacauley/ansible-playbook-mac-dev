@@ -97,6 +97,7 @@ homebrew_installed_packages:
   - jq
   - keychain
   - kitchen-completion
+  - kops
   - launchctl-completion
   - libevent
   - libffi
