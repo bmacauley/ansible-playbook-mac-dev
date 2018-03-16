@@ -40,6 +40,7 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - autojump
+  - awsebcli
   - bash
   - bash-completion
   - battery
@@ -168,6 +169,7 @@ homebrew_installed_packages:
   - vault
   - vim
   - wget
+  - wireguard
   - wrk
   - zeromq
   - z
