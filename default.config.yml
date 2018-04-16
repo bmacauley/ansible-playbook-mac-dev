@@ -169,7 +169,7 @@ homebrew_installed_packages:
   - vault
   - vim
   - wget
-  - wireguard
+  # - wireguard
   - wrk
   - zeromq
   - z
