@@ -205,7 +205,7 @@ homebrew_cask_apps:
   - google-drive
   - google-hangouts
   - gpgtools
-  - handbrake
+ # - handbrake
   - intellij-idea
   - iterm2
   - istat-menus
