@@ -178,7 +178,7 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - homebrew/core
-  - caskroom/cask
+  # - caskroom/cask
   - Goles/battery
   - facebook/fb
 
