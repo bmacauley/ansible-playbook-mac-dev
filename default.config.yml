@@ -44,7 +44,7 @@ homebrew_installed_packages:
   - bash
   - bash-completion
   - battery
-  - bazel
+  # - bazel java issues
   - bfg
   - brew-cask-completion
   - buck
@@ -209,7 +209,7 @@ homebrew_cask_apps:
   - intellij-idea
   - iterm2
   - istat-menus
-  - java8
+  - java
   - jetbrains-toolbox
   - jump-desktop
   - joinme
