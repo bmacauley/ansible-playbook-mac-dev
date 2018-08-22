@@ -501,16 +501,12 @@ mas_installed_app_ids:
       - 824171161 # Affinity Designer (purchase)
       - 407963104 # Pixelmator (purchase)
       - 937984704 # Amphetamine
-      - 411246225 # Caffeine
       - 441258766 # Magnet
       - 524141863 # Jump Desktop (purchase)
-      - 715768417 # Microsoft Remote Desktop
-      - 961632517 # Be Focused Pro (purchase)
-      - 449589707 # Dash (purchase)
+#      - 715768417 # Microsoft Remote Desktop
       - 441258766 # Magnet (purchase)
       - 406056744 # Evernote
-      - 918858936 # Airmail (purchase)
-      - 823766827 # Onedrive
+#      - 823766827 # Onedrive
       - 975937182 # Fantastical 2 (purchase)
 #      - 1088791669 # Kidslox
 #      - 408981434 # iMovie
