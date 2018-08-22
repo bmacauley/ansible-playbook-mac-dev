@@ -209,7 +209,7 @@ homebrew_cask_apps:
   - intellij-idea
   - iterm2
   - istat-menus
-  - java
+  - java8
   - jetbrains-toolbox
   - jump-desktop
   - joinme
