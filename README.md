@@ -11,7 +11,7 @@ It is continually evolving and leans heavily on the following examples on Github
 * [osxc](https://github.com/osxc)
 * [MWGriffin/ansible-playbooks](https://github.com/MWGriffin/ansible-playbooks)
 
-##Installation
+## Installation
 
 Run the installer script...
 
