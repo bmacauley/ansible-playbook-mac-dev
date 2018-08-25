@@ -58,13 +58,9 @@ homebrew_installed_packages:
   - direnv
   - docker
   - docker-clean
-  - docker-cloud
- # - docker-completion
   - docker-compose
- # - docker-compose-completion
   - docker-gen
   - docker-machine
-  #- docker-machine-completion
   - docker-swarm
   - duti
   - enca
@@ -169,7 +165,8 @@ homebrew_installed_packages:
   - vault
   - vim
   - wget
-  # - wireguard
+  - wireguard-go
+  - wireguard-tools
   - wrk
   - zeromq
   - z
