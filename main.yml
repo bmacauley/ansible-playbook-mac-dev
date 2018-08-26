@@ -12,9 +12,9 @@
 
   roles:
     - ansible-role-dotfiles
-    - ansible-role-homebrew
+    - geerlingguy.homebrew
     - ansible-role-sublimetext
-    - ansible-role-mas
+    - geerlingguy.mas
 
 
   tasks:
