@@ -48,8 +48,14 @@ if [[ $(java 2>&1) =~ "No Java runtime present" ]]; then
     brew cask install java
 fi
 
+# Download and install Python 2
+if [[ ! -x /usr/local/bin/python ]]; then
+    echo "Info   | Install   | Python"
+    brew install python@2
+fi
 
-# Download and install Python
+
+# Download and install Python 3
 if [[ ! -x /usr/local/bin/python ]]; then
     echo "Info   | Install   | Python"
     brew install python
