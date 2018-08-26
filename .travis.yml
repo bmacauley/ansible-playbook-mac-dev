@@ -37,7 +37,7 @@ script:
   - "ansible-playbook main.yml --syntax-check"
 
   # Copy test config.yml into place.
-  - "cp tests/config.yml config.yml"
+  - "cp -f tests/config.yml default.config.yml"
 
   # Test the playbook.
   - "travis_wait 30 ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' main.yml"

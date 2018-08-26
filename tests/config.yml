@@ -1,16 +1,168 @@
-homebrew_installed_packages:
-  - autoconf
-  - bash-completion
-  - gettext
-  - sqlite
-  - ssh-copy-id
-  - cowsay
-  - readline
-  - pv
-  - wget
-  - wrk
+---
+downloads: ~/.ansible-downloads/
 
-homebrew_cask_apps:
-  - firefox
-  - limechat
+configure_sudoers: no
+
+# Install dotfiles from a git repo
+dotfiles_repo: https://github.com/bmacauley/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/.dotfiles
+dotfiles_files:
+  - .aliases
+  - .bash_profile
+  - .bashrc
+  - .bash_prompt
+  - .editorconfig
+  - .functions
+  - .gitconfig
+  - .gitignore
+  - .hushlogin
+  - .macos
+  - .paths
+  - .tmux.conf
+  - .vim
+  - .vimrc
+  - .tmux.conf
+  - .zprofile
+  - .zshrc
+  - .zsh_prompt
+
+
+# Install/upgrade homebrew packages/taps/casks
+homebrew_upgrade_all_packages: yes
+
+homebrew_uninstalled_packages:
+
+homebrew_installed_packages:
+  - ack
+  - awscli
+  - battery
+  # - bazel java issues
+  - consul
+  - cookiecutter
+  - ctags
+  - curl
+  - direnv
+  - docker
+  - gdbm
+  - geoip
+  - gettext
+  - gist
+  - git
+  - glide
+  - go
+  - jq
+  - keychain
+  - libevent
+  - libffi
+  - libvterm
+  - libxml2
+  - libyaml
   - macvim
+  - mas
+  - node
+  - nomad
+  - mas
+  - openssl
+  - openvpn
+  - p7zip
+  - packer
+  - pyenv
+  - pyenv-virtualenv
+  - pyenv-virtualenvwrapper
+  - python
+  - python3
+  - redis
+  - ruby
+  - s3cmd
+  - terraform
+  - terraform-docs
+  - terragrunt
+  - vault
+  - vim
+  - z
+  - zsh
+
+homebrew_taps:
+  - homebrew/core
+  - Goles/battery
+  - facebook/fb
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - alfred
+  - amazon-workdocs
+  - amazon-workspaces
+  - atom
+  - google-chrome
+  - iterm2
+  - istat-menus
+  - java
+  - jetbrains-toolbox
+  - jump-desktop
+  - kindle
+  - limechat
+  - omnigraffle
+  - skitch
+  - slack
+  - sublime-text
+
+
+
+# Vim config
+vundle_repo: https://github.com/gmarik/Vundle.vim.git
+vundle_repo_accept_hostkey: yes
+
+
+# Prompt config
+zsh_git_prompt_repo: https://github.com/bmacauley/zsh-git-prompt.git
+zsh_git_prompt_repo_accept_hostkey: yes
+
+# Powerline fonts
+powerline_fonts_repo: https://github.com/powerline/fonts.git
+powerline_fonts_repo_version: 2015-12-04
+powerline_fonts_repo_accept_hostkey: yes
+
+# Install/Update Sublime packages
+sublime_text_color_scheme: "Packages/Monokai Gray/MonokaiGray.tmTheme"
+sublime_text_theme: "Soda Dark 3.sublime-theme"
+sublime_packages:
+  - dest: "Theme - Soda"
+    repo: "https://github.com/buymeasoda/soda-theme.git"
+    version: "master"
+
+  - dest: "Monokai Gray"
+    repo: "https://github.com/IanWold/MonokaiGray.git"
+    version: "master"
+
+  - dest: "Alignment"
+    repo: "https://github.com/wbond/sublime_alignment"
+    version: "master"
+
+  - dest: "Anaconda"
+    repo: "https://github.com/DamnWidget/anaconda"
+    version: "master"
+
+
+
+# Install/Update Mac App store apps using MAS
+
+mas_installed_app_ids:
+      - 497799835 # Xcode (8.1)
+      - 824183456 # Affinity Photo (purchase)
+      - 405399194 # Kindle
+      - 824171161 # Affinity Designer (purchase)
+      - 407963104 # Pixelmator (purchase)
+      - 937984704 # Amphetamine
+      - 441258766 # Magnet
+      - 524141863 # Jump Desktop (purchase)
+#      - 715768417 # Microsoft Remote Desktop
+      - 441258766 # Magnet (purchase)
+      - 406056744 # Evernote
+#      - 823766827 # Onedrive
+      - 975937182 # Fantastical 2 (purchase)
+#      - 1088791669 # Kidslox
+#      - 408981434 # iMovie
+      - 409183694 # keynote
+
+
