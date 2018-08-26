@@ -15,6 +15,7 @@ before_install:
 
 install:
   # Install pip.
+  #
   - sudo easy_install pip
 
   # Install Ansible.
