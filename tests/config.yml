@@ -145,8 +145,3 @@ sublime_packages:
 
 
 
-# Install/Update Mac App store apps using MAS
-
-mas_installed_app_ids:
-
-

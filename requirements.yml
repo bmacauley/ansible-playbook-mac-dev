@@ -1,7 +1,6 @@
 ---
-- src: https://github.com/bmacauley/ansible-role-homebrew
-  version: v0.3
-  name: ansible-role-homebrew
+
+- name: geerlingguy.homebrew
 
 - src: https://github.com/bmacauley/ansible-role-dotfiles
   version: master
@@ -11,6 +10,4 @@
   version: master
   name: ansible-role-sublimetext
 
-- src: https://github.com/bmacauley/ansible-role-mas
-  version: master
-  name: ansible-role-mas
+- name: geerlingguy.mas
