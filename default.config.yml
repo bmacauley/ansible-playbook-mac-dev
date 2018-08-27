@@ -214,6 +214,7 @@ homebrew_cask_apps:
   - kitematic
   - kindle
   - limechat
+  - lynis
   - omnigraffle
   - osquery
   - pgadmin4
