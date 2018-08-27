@@ -231,6 +231,7 @@ homebrew_cask_apps:
   - tomighty
   - transmit
   - tunnelblick
+  - udptunnel
   - vagrant
   - virtualbox
   - visual-studio-code
