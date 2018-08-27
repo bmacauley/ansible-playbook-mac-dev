@@ -226,6 +226,7 @@ homebrew_cask_apps:
   - skitch
   - slack
   - sourcetree
+  - stunnel
   - sublime-text
   - tomighty
   - transmit
