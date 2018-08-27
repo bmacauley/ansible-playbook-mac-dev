@@ -10,4 +10,6 @@
   version: master
   name: ansible-role-sublimetext
 
-- name: geerlingguy.mas
+- src: https://github.com/bmacauley/ansible-role-mas
+  version: master
+  name: ansible-role-mas
