@@ -36,52 +36,7 @@ homebrew_uninstalled_packages:
 homebrew_installed_packages:
   - ack
   - awscli
-  - battery
-  # - bazel java issues
-  - consul
-  - cookiecutter
-  - ctags
-  - curl
-  - direnv
-  - docker
-  - gdbm
-  - geoip
-  - gettext
-  - gist
-  - git
-  - glide
-  - go
-  - jq
-  - keychain
-  - libevent
-  - libffi
-  - libvterm
-  - libxml2
-  - libyaml
-  - macvim
-  - mas
-  - node
-  - nomad
-  - mas
-  - openssl
-  - openvpn
-  - p7zip
-  - packer
-  - pyenv
-  - pyenv-virtualenv
-  - pyenv-virtualenvwrapper
-  - python
-  - python3
-  - redis
-  - ruby
-  - s3cmd
-  - terraform
-  - terraform-docs
-  - terragrunt
-  - vault
-  - vim
-  - z
-  - zsh
+
 
 homebrew_taps:
   - homebrew/core
@@ -90,21 +45,6 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - alfred
-  - amazon-workdocs
-  - amazon-workspaces
-  - atom
-  - google-chrome
-  - iterm2
-  - istat-menus
-  - java
-  - jetbrains-toolbox
-  - jump-desktop
-  - kindle
-  - limechat
-  - omnigraffle
-  - skitch
-  - slack
   - sublime-text
 
 
@@ -130,18 +70,4 @@ sublime_packages:
   - dest: "Theme - Soda"
     repo: "https://github.com/buymeasoda/soda-theme.git"
     version: "master"
-
-  - dest: "Monokai Gray"
-    repo: "https://github.com/IanWold/MonokaiGray.git"
-    version: "master"
-
-  - dest: "Alignment"
-    repo: "https://github.com/wbond/sublime_alignment"
-    version: "master"
-
-  - dest: "Anaconda"
-    repo: "https://github.com/DamnWidget/anaconda"
-    version: "master"
-
-
 
