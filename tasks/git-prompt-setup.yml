@@ -1,3 +1,4 @@
+---
 - name: Ensure that .prompt dir exists
   file:
     path: ~/.prompt

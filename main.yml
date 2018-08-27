@@ -26,7 +26,6 @@
       when: mas_installed_apps
       tags: ['mas']
 
-
   tasks:
     - include_tasks: tasks/ansible-setup.yml
 
@@ -46,5 +45,4 @@
 
     - include_tasks: tasks/macos.yml
       when: configure_macos
-      tags: ['macos']
 

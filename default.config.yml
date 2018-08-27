@@ -8,7 +8,7 @@ configure_python: yes
 configure_vim: yes
 configure_fonts: yes
 configure_macos: yes
-
+mas_installed_apps: yes
 
 # Install dotfiles from a git repo
 dotfiles_repo: https://github.com/bmacauley/dotfiles.git
@@ -236,7 +236,7 @@ homebrew_cask_apps:
   - sequel-pro
   - shadowsocks-libev
   - shadowsocksx
-  - shadowsocksx-ng
+  # - shadowsocksx-ng
   - skitch
   - slack
   - sourcetree
