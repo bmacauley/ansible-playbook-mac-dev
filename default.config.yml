@@ -101,6 +101,7 @@ homebrew_installed_packages:
   - libvterm
   - libxml2
   - libyaml
+  - lynis
   - macvim
   - mas
   - maven
@@ -120,6 +121,7 @@ homebrew_installed_packages:
   - mas
   - openssl
   - openvpn
+  - osquery
   - p7zip
   - packer
   - packer-completion
@@ -151,6 +153,7 @@ homebrew_installed_packages:
   - spark
   - sqlite
   - ssh-copy-id
+  - stunnel
   - tccutil
   - terraform
   - terraform-docs
@@ -161,6 +164,7 @@ homebrew_installed_packages:
   - tmux
   - tree
   - unixodbc
+  - udptunnel
   - vagrant-completion
   - vault
   - vim
@@ -215,9 +219,7 @@ homebrew_cask_apps:
   - kitematic
   - kindle
   - limechat
-  - lynis
   - omnigraffle
-  - osquery
   - pgadmin4
   - postico
   - postman
@@ -227,12 +229,10 @@ homebrew_cask_apps:
   - skitch
   - slack
   - sourcetree
-  - stunnel
   - sublime-text
   - tomighty
   - transmit
   - tunnelblick
-  - udptunnel
   - vagrant
   - virtualbox
   - visual-studio-code
