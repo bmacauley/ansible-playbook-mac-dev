@@ -227,6 +227,9 @@ homebrew_cask_apps:
   - powershell
   - pycharm
   - sequel-pro
+  - shadowsocks-libev
+  - shadowsocksx
+  - shadowsocksx-ng
   - skitch
   - slack
   - sourcetree
