@@ -25,7 +25,7 @@ install:
   - "{ echo '[defaults]'; echo 'roles_path = ../'; echo 'nocows = 1';} >> ansible.cfg"
 
   # Add a hosts file.
-  - sudo mkdir -p /et c/ansible
+  - sudo mkdir -p /etc/ansible
   - sudo touch /etc/ansible/hosts
   - "echo -e '[local]\nlocalhost ansible_connection=local' | sudo tee -a /etc/ansible/hosts > /dev/null"
 
