@@ -36,8 +36,9 @@ script:
   # Check the role/playbook's syntax.
   - "ansible-playbook main.yml --syntax-check"
 
-  # Copy test config.yml into place.
+  # Copy test main.yml, config.yml into place.
   - "cp -f tests/config.yml default.config.yml"
+  - "cp -f tests/main.yml main.yml"
 
   # Test the playbook.
   - "travis_wait 30 ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' main.yml"

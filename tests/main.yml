@@ -1,0 +1,27 @@
+---
+- hosts: all
+  connection: local
+
+  vars_files:
+      - default.config.yml
+
+  pre_tasks:
+    - include_vars: "{{ item }}"
+      with_fileglob:
+        - ../config.yml
+
+  roles:
+    - ansible-role-dotfiles
+    - geerlingguy.homebrew
+    - ansible-role-sublimetext
+#    - geerlingguy.mas  ...disable...no way of configuring apple store
+
+
+  tasks:
+    - include: tasks/ansible-setup.yml
+    - include: tasks/directory-setup.yml
+    - include: tasks/python-setup.yml
+    - include: tasks/git-prompt-setup.yml
+    - include: tasks/vim-setup.yml
+    - include: tasks/fonts-setup.yml
+    - include: tasks/preferences.yml
