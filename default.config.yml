@@ -220,6 +220,7 @@ homebrew_cask_apps:
   - kindle
   - limechat
   - omnigraffle
+  - outline-manager
   - pgadmin4
   - postico
   - postman
