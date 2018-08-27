@@ -133,7 +133,7 @@ homebrew_installed_packages:
   - pyenv-virtualenv
   - pyenv-virtualenvwrapper
   - python
-  - python3
+  - python@2
   - rails-completion
   - rake-completion
   - ruby-completion
@@ -242,8 +242,8 @@ vundle_repo_accept_hostkey: yes
 
 
 # Prompt config
-bash_git_prompt_repo: https://github.com/bmacauley/bash-git-prompt.git
-bash_git_prompt_repo_accept_hostkey: yes
+# bash_git_prompt_repo: https://github.com/bmacauley/bash-git-prompt.git
+# bash_git_prompt_repo_accept_hostkey: yes
 zsh_git_prompt_repo: https://github.com/bmacauley/zsh-git-prompt.git
 zsh_git_prompt_repo_accept_hostkey: yes
 

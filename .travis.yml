@@ -1,18 +1,21 @@
 ---
 sudo: required
 language: objective-c
-# 10.11 (see https://docs.travis-ci.com/user/osx-ci-environment/#OS-X-Version)
-osx_image: xcode7.3
+# 10.14 (see https://docs.travis-ci.com/user/osx-ci-environment/#OS-X-Version)
+osx_image: xcode9.4
 
 before_install:
-  # Uninstall existing brew installation.
-  - 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"'
-  - rm -rf /usr/local/Homebrew
-  - rm -rf /usr/local/Caskroom
-  - rm -rf /usr/local/bin/brew
+  # Uninstall existing Homebrew installation.
+  - curl -sLO https://raw.githubusercontent.com/Homebrew/install/master/uninstall
+  - chmod +x ./uninstall
+  - ./uninstall --force
+  - sudo rm -rf /usr/local/Homebrew
+  - sudo rm -rf /usr/local/Caskroom
+  - sudo rm -rf /usr/local/bin/brew
 
 install:
   # Install pip.
+  #
   - sudo easy_install pip
 
   # Install Ansible.
@@ -33,8 +36,12 @@ script:
   # Check the role/playbook's syntax.
   - "ansible-playbook main.yml --syntax-check"
 
+  # Copy test main.yml, config.yml into place.
+  - "cp -f tests/config.yml default.config.yml"
+  - "cp -f tests/main.yml main.yml"
+
   # Test the playbook.
-  - "travis_wait 50 ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' main.yml"
+  - "travis_wait 30 ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' main.yml"
 
   # Test the playbook's idempotence.
   - idempotence=$(mktemp)

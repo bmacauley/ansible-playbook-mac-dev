@@ -1,0 +1,76 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_sudoers: no
+
+# Install dotfiles from a git repo
+dotfiles_repo: https://github.com/bmacauley/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/.dotfiles
+dotfiles_files:
+  - .aliases
+  - .bash_profile
+  - .bashrc
+  - .bash_prompt
+  - .editorconfig
+  - .functions
+  - .gitconfig
+  - .gitignore
+  - .hushlogin
+  - .macos
+  - .paths
+  - .tmux.conf
+  - .vim
+  - .vimrc
+  - .tmux.conf
+  - .zprofile
+  - .zshrc
+  - .zsh_prompt
+
+
+# Install/upgrade homebrew packages/taps/casks
+homebrew_upgrade_all_packages: yes
+
+homebrew_uninstalled_packages:
+
+homebrew_installed_packages:
+  - ack
+  - awscli
+  - python
+  - python@2
+
+
+homebrew_taps:
+  - homebrew/core
+  - Goles/battery
+  - facebook/fb
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - sublime-text
+
+
+
+# Vim config
+vundle_repo: https://github.com/gmarik/Vundle.vim.git
+vundle_repo_accept_hostkey: yes
+
+
+# Prompt config
+zsh_git_prompt_repo: https://github.com/bmacauley/zsh-git-prompt.git
+zsh_git_prompt_repo_accept_hostkey: yes
+
+# Powerline fonts
+powerline_fonts_repo: https://github.com/powerline/fonts.git
+powerline_fonts_repo_version: 2015-12-04
+powerline_fonts_repo_accept_hostkey: yes
+
+# Install/Update Sublime packages
+sublime_text_color_scheme: "Packages/Monokai Gray/MonokaiGray.tmTheme"
+sublime_text_theme: "Soda Dark 3.sublime-theme"
+sublime_packages:
+  - dest: "Theme - Soda"
+    repo: "https://github.com/buymeasoda/soda-theme.git"
+    version: "master"
+
+
