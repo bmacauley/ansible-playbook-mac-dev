@@ -215,13 +215,13 @@ homebrew_cask_apps:
   - kindle
   - limechat
   - omnigraffle
+  - osquery
   - pgadmin4
   - postico
   - postman
   - powershell
   - pycharm
   - sequel-pro
-  #- skype
   - skitch
   - slack
   - sourcetree
