@@ -197,6 +197,7 @@ homebrew_cask_apps:
   - flux
   - gas-mask
   - gitter
+  - gitkraken
   - github-desktop
   - google-chrome
   - google-drive
