@@ -1,15 +1,15 @@
 - name: Ensure that .prompt dir exists
-  file: 
+  file:
     path: ~/.prompt
     state: directory
 
 
-- name: Clone bash-git-prompt repository to .prompt directory
-  git:
-    repo: "{{ bash_git_prompt_repo }}"
-    dest: ~/.prompt/bash-git-prompt
-    accept_hostkey: "{{ bash_git_prompt_repo_accept_hostkey }}"
-  become: no
+# - name: Clone bash-git-prompt repository to .prompt directory
+#   git:
+#     repo: "{{ bash_git_prompt_repo }}"
+#     dest: ~/.prompt/bash-git-prompt
+#     accept_hostkey: "{{ bash_git_prompt_repo_accept_hostkey }}"
+#   become: no
 
 
 - name: Clone zsh-git-prompt repository .prompt directory
