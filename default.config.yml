@@ -133,7 +133,7 @@ homebrew_installed_packages:
   - pyenv-virtualenv
   - pyenv-virtualenvwrapper
   - python
-  - python3
+  - python@2
   - rails-completion
   - rake-completion
   - ruby-completion

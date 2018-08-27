@@ -36,6 +36,8 @@ homebrew_uninstalled_packages:
 homebrew_installed_packages:
   - ack
   - awscli
+  - python
+  - python@2
 
 
 homebrew_taps:
