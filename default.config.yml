@@ -1,7 +1,14 @@
 ---
 downloads: ~/.ansible-downloads/
 
+configure_dotfiles: yes
 configure_sudoers: no
+configure_prompt: yes
+configure_python: yes
+configure_vim: yes
+configure_fonts: yes
+configure_macos: yes
+
 
 # Install dotfiles from a git repo
 dotfiles_repo: https://github.com/bmacauley/dotfiles.git
@@ -498,7 +505,6 @@ sublime_packages:
 
 
 # Install/Update Mac App store apps using MAS
-
 mas_installed_app_ids:
       - 497799835 # Xcode (8.1)
       - 824183456 # Affinity Photo (purchase)

@@ -9,19 +9,42 @@
     - include_vars: "{{ item }}"
       with_fileglob:
         - ../config.yml
+      tags: ['always']
 
   roles:
-    - ansible-role-dotfiles
-    - geerlingguy.homebrew
-    - ansible-role-sublimetext
-    - geerlingguy.mas
+    - role: ansible-role-dotfiles
+      when: configure_dotfiles
+      tags: ['dotfiles']
+
+    - role: geerlingguy.homebrew
+      tags: ['homebrew']
+
+    - role: ansible-role-sublimetext
+      tags: ['sublime']
+
+    - role: ansible-role-mas
+      when: mas_installed_apps
+      tags: ['mas']
 
 
   tasks:
-    - include: tasks/ansible-setup.yml
-    - include: tasks/directory-setup.yml
-    - include: tasks/python-setup.yml
-    - include: tasks/git-prompt-setup.yml
-    - include: tasks/vim-setup.yml
-    - include: tasks/fonts-setup.yml
-    - include: tasks/preferences.yml
+    - include_tasks: tasks/ansible-setup.yml
+
+    - include_tasks: tasks/directory-setup.yml
+
+    - include_tasks: tasks/python-setup.yml
+      when: configure_python
+
+    - include_tasks: tasks/git-prompt-setup.yml
+      when: configure_prompt
+
+    - include_tasks: tasks/vim-setup.yml
+      when: configure_vim
+
+    - include_tasks: tasks/fonts-setup.yml
+      when: configure_fonts
+
+    - include_tasks: tasks/macos.yml
+      when: configure_macos
+      tags: ['macos']
+
