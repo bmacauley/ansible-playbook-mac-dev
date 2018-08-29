@@ -22,6 +22,7 @@ curl -fsSL https://raw.githubusercontent.com/bmacauley/ansible-playbook-mac-dev/
 The installer script installs Apple's command line tools , Homebrew, Python Pip, Ansible and finally it downloads and runs this playbook
 
 
+
 Alternatively...
 
 1. Install Apple's command line tools, if they are not installed (`xcode-select --install`)
