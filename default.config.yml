@@ -248,7 +248,7 @@ homebrew_cask_apps:
   - vagrant
   - virtualbox
   - visual-studio-code
-  - wifi-explorer
+ # - wifi-explorer
   - vlc
 
 
