@@ -91,8 +91,8 @@ homebrew_installed_packages:
   - gradle
   - gradle-completion
   - hub
-  - heroku
-  - heroku-toolbelt
+  #- heroku
+  #- heroku-toolbelt
   - htop-osx
   - httpie
   - hugo
