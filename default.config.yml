@@ -157,6 +157,7 @@ homebrew_installed_packages:
   - s3cmd
   - saltstack
   - scons
+  - serverless
   - sshuttle
   - spark
   - sqlite
