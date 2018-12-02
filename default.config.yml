@@ -43,6 +43,7 @@ homebrew_uninstalled_packages:
 homebrew_installed_packages:
   - ack
   - awscli
+  - aws-sam-cli
   - aws-shell
   # - ansible # Installed via Pip.
   - autoconf
@@ -189,6 +190,7 @@ homebrew_taps:
   # - caskroom/cask
   - Goles/battery
   - facebook/fb
+  - aws/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
