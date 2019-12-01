@@ -213,7 +213,7 @@ homebrew_cask_apps:
   - gas-mask
   # - gitter
   # - gitkraken
-  - github-desktop
+  - github
   - google-chrome
   - google-drive
   # - google-hangouts
