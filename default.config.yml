@@ -135,6 +135,7 @@ homebrew_installed_packages:
   - packer-completion
   - pandoc
   - parallel
+  - pgcli
   - pip-completion
   - postgresql
   - pup
