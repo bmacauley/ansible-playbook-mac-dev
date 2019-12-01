@@ -215,7 +215,7 @@ homebrew_cask_apps:
   # - gitkraken
   - github
   - google-chrome
-  - google-drive
+  - google-drive-file-stream
   # - google-hangouts
   - gpgtools
  # - handbrake
