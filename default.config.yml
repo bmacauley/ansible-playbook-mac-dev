@@ -217,7 +217,7 @@ homebrew_cask_apps:
   - google-chrome
   - google-drive-file-stream
   # - google-hangouts
-  - gpgtools
+  - gpg-suite
  # - handbrake
   # - intellij-idea
   - iterm2
@@ -250,6 +250,7 @@ homebrew_cask_apps:
   # - transmit
   - tunnelblick
   - vagrant
+  - vagrant-manager
   - virtualbox
   - visual-studio-code
  # - wifi-explorer
