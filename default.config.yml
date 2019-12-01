@@ -48,18 +48,18 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - autojump
-  - awsebcli
+  # - awsebcli
   - bash
   - bash-completion
   - battery
   # - bazel java issues
   - bfg
   - brew-cask-completion
-  - buck
+  # - buck
   - bundler-completion
   - cloc
   - cowsay
-  - consul
+  # - consul
   - cookiecutter
   - ctags
   - curl
@@ -70,13 +70,13 @@ homebrew_installed_packages:
   - docker-gen
   - docker-machine
   - docker-swarm
-  - duti
-  - enca
+  # - duti
+  # - enca
   - fasd
   - fish
   - freetds
   - gdbm
-  - geoip
+  # - geoip
   - gettext
   - gist
   - git
@@ -85,18 +85,18 @@ homebrew_installed_packages:
   - github-release
   - git-subrepo
   - gitup
-  - glide
+  # - glide
   - go
   - gpg
   - gpg2
-  - gradle
+  # - gradle
   - gradle-completion
   - hub
   #- heroku
   #- heroku-toolbelt
   - htop-osx
   - httpie
-  - hugo
+  # - hugo
   - ipcalc
   - iperf
   - jq
@@ -109,20 +109,20 @@ homebrew_installed_packages:
   - libvterm
   - libxml2
   - libyaml
-  - lynis
+  # - lynis
   - macvim
   - mas
-  - maven
+  # - maven
   - mcrypt
   - md5sha1sum
-  - mercurial
+  # - mercurial
   - mobile-shell
   - mtr
   - multitail
-  - mysql
+  # - mysql
   - nmap
   - node
-  - nomad
+  # - nomad
   - npm
   - nvm
   - nginx
@@ -131,33 +131,33 @@ homebrew_installed_packages:
   - openvpn
   - osquery
   - p7zip
-  - packer
+  # - packer
   - packer-completion
   - pandoc
   - parallel
   - pgcli
   - pip-completion
   - postgresql
-  - pup
-  - pv
+  # - pup
+  # - pv
   - pyenv
   - pyenv-virtualenv
   - pyenv-virtualenvwrapper
   - python
-  - python@2
+  # - python@2
   - rails-completion
   - rake-completion
   - ruby-completion
-  - rancher-cli
-  - rancher-compose
+  # - rancher-cli
+  # - rancher-compose
   - rbenv
   - readline
   - reattach-to-user-namespace
   - redis
   - ruby
   - s3cmd
-  - saltstack
-  - scons
+  # - saltstack
+  # - scons
   - serverless
   - sshuttle
   - spark
@@ -165,9 +165,9 @@ homebrew_installed_packages:
   - ssh-copy-id
   - stunnel
   - tccutil
-  - terraform
+  # - terraform
   - terraform-docs
-  - terragrunt
+  # - terragrunt
   - the_platinum_searcher
   - the_silver_searcher
   - tig
@@ -197,29 +197,29 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alfred
-  - amazon-workdocs
+  # - amazon-workdocs
   - amazon-workspaces
   - atom
   - caffeine
   - charles
   - clipy
   - coconutbattery
-  - cyberduck
+  # - cyberduck
   - docker
   - dropbox
   - fantastical
   - firefox
-  - flux
+  # - flux
   - gas-mask
-  - gitter
-  - gitkraken
+  # - gitter
+  # - gitkraken
   - github-desktop
   - google-chrome
   - google-drive
-  - google-hangouts
+  # - google-hangouts
   - gpgtools
  # - handbrake
-  - intellij-idea
+  # - intellij-idea
   - iterm2
   - istat-menus
   - java
@@ -228,11 +228,11 @@ homebrew_cask_apps:
   - joinme
   - keepassx
   - keybase
-  - kitematic
+  # - kitematic
   - kindle
-  - limechat
+  # - limechat
   - omnigraffle
-  - outline-manager
+  # - outline-manager
   - pgadmin4
   - postico
   - postman
@@ -244,16 +244,16 @@ homebrew_cask_apps:
   # - shadowsocksx-ng
   - skitch
   - slack
-  - sourcetree
+  # - sourcetree
   - sublime-text
-  - tomighty
-  - transmit
+  # - tomighty
+  # - transmit
   - tunnelblick
   - vagrant
   - virtualbox
   - visual-studio-code
  # - wifi-explorer
-  - vlc
+  # - vlc
 
 
 # Vim config
