@@ -102,7 +102,7 @@ homebrew_installed_packages:
   - iperf
   - jq
   - k3d
-  - k9s
+  - derailed/k9s/k9s
   - keychain
   - kind
   - kitchen-completion
@@ -114,11 +114,11 @@ homebrew_installed_packages:
   - libxml2
   - libyaml
   # - lynis
-  - macvim
+  # - macvim
   - mas
   - maven
   - mcrypt
-  - md5sha1sum
+  # - md5sha1sum
   - minikube
   - mobile-shell
   - mtr
@@ -133,7 +133,7 @@ homebrew_installed_packages:
   - mas
   - openssl
   - openvpn
-  - osquery
+  # - osquery
   - p7zip
   # - packer
   - packer-completion
