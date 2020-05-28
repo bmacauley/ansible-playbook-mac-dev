@@ -182,7 +182,7 @@ homebrew_installed_packages:
   - udptunnel
   - vagrant-completion
   - vault
-  - vim
+  # - vim
   - wget
   - wireguard-go
   - wireguard-tools
