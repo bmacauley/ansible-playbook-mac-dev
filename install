@@ -42,6 +42,22 @@ if [[ ! -x /usr/local/bin/brew ]]; then
 fi
 
 
+
+if [ $(ls /Applications/ | grep iTerm.app) ]; then
+    echo "Info   | Install   | iTerm2"
+    brew cask install iterm2
+fi
+
+
+
+if [[ ! -x /usr/local/bin/fish ]]; then
+    echo "Info   | Install   | Fish"
+    brew install fish
+fi
+
+
+
+
 # Download and install Java
 if [[ $(java 2>&1) =~ "No Java runtime present" ]]; then
     echo "Info   | Install   | Java"

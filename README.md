@@ -38,7 +38,18 @@ Not everyone's development environment and preferred software configuration is t
 
 You can override any of the defaults configured in default.config.yml by creating a config.yml file and setting the overrides in that file. For example, you can customize the installed packages and apps with something like:
 
+## Ansible roles used
+- [geerlingguy.homebrew](https://github.com/geerlingguy/ansible-role-homebrew)
+- [ansible-role-dotfiles](https://github.com/bmacauley/ansible-role-dotfiles)
+- [ansible-role-sublimetext](https://github.com/bmacauley/ansible-role-sublimetext)
+- [ansible-role-mas]( https://github.com/bmacauley/ansible-role-mas)
 
+
+## Other repos used
+- [dotfiles](https://github.com/bmacauley/dotfiles.git)
+- [zsh-git-prompt](https://github.com/bmacauley/zsh-git-prompt.git)
+- [poerline fonts](https://github.com/powerline/fonts.git)
+- [Vundle(vim)](https://github.com/gmarik/Vundle.vim.git)
 
 
 ## Included Applications

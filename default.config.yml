@@ -42,6 +42,7 @@ homebrew_uninstalled_packages: []
 
 homebrew_installed_packages:
   - ack
+  - asdf
   - awscli
   - aws-sam-cli
   - aws-shell
@@ -67,9 +68,9 @@ homebrew_installed_packages:
   - docker
   - docker-clean
   - docker-compose
-  - docker-gen
-  - docker-machine
-  - docker-swarm
+  # - docker-gen
+  # - docker-machine
+  # - docker-swarm
   # - duti
   # - enca
   - fasd
@@ -81,9 +82,9 @@ homebrew_installed_packages:
   - gist
   - git
   - git-crypt
-  - git-flow
-  - github-release
-  - git-subrepo
+  # - git-flow
+  # - github-release
+  # - git-subrepo
   - gitup
   # - glide
   - go
@@ -153,14 +154,14 @@ homebrew_installed_packages:
   - rbenv
   - readline
   - reattach-to-user-namespace
-  - redis
+  # - redis
   - ruby
   - s3cmd
   # - saltstack
   # - scons
   - serverless
   - sshuttle
-  - spark
+  # - spark
   - sqlite
   - ssh-copy-id
   - stunnel
@@ -168,6 +169,7 @@ homebrew_installed_packages:
   # - terraform
   - terraform-docs
   # - terragrunt
+  - tfenv
   - the_platinum_searcher
   - the_silver_searcher
   - tig
@@ -182,7 +184,7 @@ homebrew_installed_packages:
   - wireguard-go
   - wireguard-tools
   - wrk
-  - zeromq
+  # - zeromq
   - z
   - zsh
   - zsh-completions
@@ -198,16 +200,16 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alfred
   # - amazon-workdocs
-  - amazon-workspaces
+  # - amazon-workspaces
   - atom
   - caffeine
-  - charles
-  - clipy
-  - coconutbattery
+  # - charles
+  # - clipy
+  # - coconutbattery
   # - cyberduck
   - docker
   - dropbox
-  - fantastical
+  # - fantastical
   - firefox
   # - flux
   - gas-mask
@@ -236,9 +238,9 @@ homebrew_cask_apps:
   - pgadmin4
   - postico
   - postman
-  - powershell
+  # - powershell
   - pycharm
-  - sequel-pro
+  # - sequel-pro
   # - shadowsocks-libev
   # - shadowsocksx
   # - shadowsocksx-ng
@@ -250,9 +252,10 @@ homebrew_cask_apps:
   # - transmit
   - tunnelblick
   - vagrant
-  - vagrant-manager
+  # - vagrant-manager
   - virtualbox
   - visual-studio-code
+  - zoom
  # - wifi-explorer
   # - vlc
 
@@ -518,15 +521,14 @@ mas_installed_app_ids:
       - 824171161 # Affinity Designer (purchase)
       - 407963104 # Pixelmator (purchase)
       - 937984704 # Amphetamine
-      - 441258766 # Magnet
       - 524141863 # Jump Desktop (purchase)
       - 1295203466 # Microsoft Remote Desktop v10
       - 441258766 # Magnet (purchase)
-      - 406056744 # Evernote
+      # - 406056744 # Evernote
 #      - 823766827 # Onedrive
       - 975937182 # Fantastical 2 (purchase)
 #      - 1088791669 # Kidslox
 #      - 408981434 # iMovie
-      - 409183694 # keynote
+      # - 409183694 # keynote
 
 
