@@ -42,7 +42,6 @@ if [[ ! -x /usr/local/bin/brew ]]; then
 fi
 
 
-
 if [ $(ls /Applications/ | grep iTerm.app) ]; then
     echo "Info   | Install   | iTerm2"
     brew cask install iterm2
@@ -54,7 +53,6 @@ if [[ ! -x /usr/local/bin/fish ]]; then
     echo "Info   | Install   | Fish"
     brew install fish
 fi
-
 
 
 

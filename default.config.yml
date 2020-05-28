@@ -189,7 +189,7 @@ homebrew_installed_packages:
   - wrk
   # - zeromq
   - z
-  - zsh
+  # - zsh
   - zsh-completions
 
 homebrew_taps:
