@@ -101,7 +101,10 @@ homebrew_installed_packages:
   - ipcalc
   - iperf
   - jq
+  - k3d
+  - k9s
   - keychain
+  - kind
   - kitchen-completion
   - kops
   - launchctl-completion
@@ -113,10 +116,10 @@ homebrew_installed_packages:
   # - lynis
   - macvim
   - mas
-  # - maven
+  - maven
   - mcrypt
   - md5sha1sum
-  # - mercurial
+  - minikube
   - mobile-shell
   - mtr
   - multitail
