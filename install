@@ -62,11 +62,7 @@ if [[ $(java 2>&1) =~ "No Java runtime present" ]]; then
     brew cask install java
 fi
 
-# Download and install Python 2
-# if [[ ! -x /usr/local/bin/python ]]; then
-#     echo "Info   | Install   | Python"
-#     brew install python@2
-# fi
+
 
 
 # Download and install Python 3
@@ -75,17 +71,22 @@ if [[ ! -x /usr/local/bin/python ]]; then
     brew install python
 fi
 
-# install pip
-if [[ ! -x /usr/local/bin/pip ]]; then
-    echo "Info   | Install   | pip"
-    easy_install pip
+# Download and install virtualenv
+if [[ ! -x /usr/local/bin/virtualenv ]]; then
+    echo "Info   | Install   | virtualenv"
+    pip3 install virtualenv
 fi
 
+# Download and install virtualenvwrapper
+if [[ ! -x /usr/local/bin/virtualenvwrapper.sh ]]; then
+    echo "Info   | Install   | virtualenvwrapper"
+    pip3 install virtualenvwrapper
+fi
 
 # Download and install Ansible into Python installed by Brew
 if [[ ! -x /usr/local/bin/ansible ]]; then
     echo "Info   | Install   | Ansible"
-    /usr/local/bin/pip3 install ansible
+    pip3 install ansible
 fi
 
 
