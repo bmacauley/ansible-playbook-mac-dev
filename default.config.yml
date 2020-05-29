@@ -220,7 +220,7 @@ homebrew_cask_apps:
   # - gitkraken
   - github
   - google-chrome
-  - google-drive-file-stream
+  - google-photos-backup-and-sync
   # - google-hangouts
   - gpg-suite
  # - handbrake
@@ -236,7 +236,7 @@ homebrew_cask_apps:
   # - kitematic
   - kindle
   # - limechat
-  - omnigraffle
+  # - omnigraffle
   # - outline-manager
   - pgadmin4
   - postico
@@ -519,6 +519,7 @@ sublime_packages:
 # Install/Update Mac App store apps using MAS
 mas_installed_app_ids:
       - 497799835 # Xcode (8.1)
+      - 1142578753  OmniGraffle 7
       - 824183456 # Affinity Photo (purchase)
       - 405399194 # Kindle
       - 824171161 # Affinity Designer (purchase)
